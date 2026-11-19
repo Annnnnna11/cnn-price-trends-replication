@@ -1,0 +1,29 @@
+{
+  "status": "computed",
+  "definition": {
+    "signal": "Fixed I20/R20 ensemble probability",
+    "return": "Ret_month, distinct from the Ret_20d classification target",
+    "rebalance": "One formation date per calendar month, monthend-to-next-monthend holding returns",
+    "universe": "Input-eligible historical complete cases with finite Ret_month >= -1 and finite absolute MarketCap > 0; missing-return exclusion audited",
+    "selection_caveat": "Complete-case filtering follows the reference code's historical comparison convention and can introduce return-availability selection bias; not a frictionless implementable-strategy guarantee",
+    "sort": "Ten within-date percentile groups; first group includes its lower bound, subsequent groups exclude their lower bound and include upper bound",
+    "ties": "If any group is empty or 10th/90th percentiles coincide, omit the date and audit it; do not invent zero returns",
+    "weights": [
+      "equal",
+      "absolute formation-date market-cap"
+    ],
+    "spread": "High minus Low, 100% long and 100% short",
+    "annualized_return": "12 times mean observed monthly return; arithmetic, not CAGR",
+    "annualized_volatility": "sqrt(12) times sample monthly standard deviation, ddof=1",
+    "sharpe": "sqrt(12) times monthly mean divided by sample standard deviation; zero risk-free assumption",
+    "costs": "Gross: no transaction costs, borrow fees or financing adjustment",
+    "missing_months": "Report explicitly; do not fill zero; no cumulative wealth plot across internal gaps",
+    "not_estimated": [
+      "turnover",
+      "t-statistics",
+      "net returns"
+    ]
+  },
+  "included_formation_dates": 239,
+  "omitted_dates": 1
+}

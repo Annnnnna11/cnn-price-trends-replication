@@ -1,0 +1,17 @@
+{
+  "ablation": {
+    "run.py": "d11c2d2e19deccde374d7b1829c14f11e382b22edd8830eccebedff3d19d89d8",
+    "common.py": "d6b66b7d1c510bdddd236baabf6966f741a692fb850ff31eb376d0cf59845d67",
+    "models.py": "79678af0f081af30612a26b0fd659acc73ee1223ef9f78074ffe6f0f4601e532",
+    "training_engine.py": "58bc3c9843486c97970f7e7ac73c804f243d527e07f790446adc66c5bec8b580",
+    "cnn20.py": "1e2844f117f2dec51532768959b75ed6b54ded2f8ba627f873c71d0bba21559d",
+    "study_plan.json": "bc45a4b67ec55d2312fffbbb28fcf7bd2c03be1f0029a2a1897c6e910270cabd"
+  },
+  "baseline_eval": {
+    "pipeline.py": "c955ef2a3f17d07da1472e96ea18b835886abaea22c9dbcb1c0c2c04fbc2648f",
+    "evaluation_core.py": "33661edd44d664e292c12bbf437e8c64499bc701a582ce37845eb0a3287b0f76",
+    "cnn20.py": "1e2844f117f2dec51532768959b75ed6b54ded2f8ba627f873c71d0bba21559d",
+    "study_plan.json": "bc45a4b67ec55d2312fffbbb28fcf7bd2c03be1f0029a2a1897c6e910270cabd",
+    "paper_reference.json": "06d2f6a47c37bb57c6952eb15e6a07c24430fa26ad7b3ab004092c258a2fe424"
+  }
+}

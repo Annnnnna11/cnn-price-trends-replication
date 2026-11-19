@@ -1,0 +1,8 @@
+year,original_rows,nonfinite_return_rows,invalid_volatility_rows,removed_by_return_or_volatility,tail_rows_removed_after_other_filters,retained_rows
+1993,85644,365,24,365,0,85279
+1994,94750,528,36,528,0,94222
+1995,97707,668,48,668,0,97039
+1996,102974,636,48,636,0,102338
+1997,107311,847,56,847,0,106464
+1998,106201,1095,66,1095,0,105106
+1999,100284,1059,72,1059,8159,91066

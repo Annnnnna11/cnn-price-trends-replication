@@ -1,0 +1,123 @@
+{
+  "followup_id": "52d937e727a213bca5b6fdb5d6a1059c8ae262dbbd2bbe63d4630df8aecf6217",
+  "at": "2026-11-19T01:03:59.940201",
+  "gpu": "NVIDIA GeForce RTX 5060 Laptop GPU",
+  "python": "D:\\Anaconda_envs\\envs\\cnn20\\python.exe",
+  "cuda_runtime": "12.8",
+  "packages": {
+    "torch": "2.7.1+cu128",
+    "numpy": "1.26.4",
+    "pandas": "2.2.3",
+    "pyarrow": "23.0.1",
+    "matplotlib": "3.10.9"
+  },
+  "members": [
+    {
+      "depth": 2,
+      "seed": 101,
+      "forward_finite": true,
+      "gradcam_checked": true,
+      "baseline_factory_difference": null
+    },
+    {
+      "depth": 2,
+      "seed": 102,
+      "forward_finite": true,
+      "gradcam_checked": false,
+      "baseline_factory_difference": null
+    },
+    {
+      "depth": 2,
+      "seed": 103,
+      "forward_finite": true,
+      "gradcam_checked": false,
+      "baseline_factory_difference": null
+    },
+    {
+      "depth": 2,
+      "seed": 104,
+      "forward_finite": true,
+      "gradcam_checked": false,
+      "baseline_factory_difference": null
+    },
+    {
+      "depth": 2,
+      "seed": 105,
+      "forward_finite": true,
+      "gradcam_checked": false,
+      "baseline_factory_difference": null
+    },
+    {
+      "depth": 3,
+      "seed": 101,
+      "forward_finite": true,
+      "gradcam_checked": true,
+      "baseline_factory_difference": 0.0
+    },
+    {
+      "depth": 3,
+      "seed": 102,
+      "forward_finite": true,
+      "gradcam_checked": false,
+      "baseline_factory_difference": null
+    },
+    {
+      "depth": 3,
+      "seed": 103,
+      "forward_finite": true,
+      "gradcam_checked": false,
+      "baseline_factory_difference": null
+    },
+    {
+      "depth": 3,
+      "seed": 104,
+      "forward_finite": true,
+      "gradcam_checked": false,
+      "baseline_factory_difference": null
+    },
+    {
+      "depth": 3,
+      "seed": 105,
+      "forward_finite": true,
+      "gradcam_checked": false,
+      "baseline_factory_difference": null
+    },
+    {
+      "depth": 4,
+      "seed": 101,
+      "forward_finite": true,
+      "gradcam_checked": true,
+      "baseline_factory_difference": null
+    },
+    {
+      "depth": 4,
+      "seed": 102,
+      "forward_finite": true,
+      "gradcam_checked": false,
+      "baseline_factory_difference": null
+    },
+    {
+      "depth": 4,
+      "seed": 103,
+      "forward_finite": true,
+      "gradcam_checked": false,
+      "baseline_factory_difference": null
+    },
+    {
+      "depth": 4,
+      "seed": 104,
+      "forward_finite": true,
+      "gradcam_checked": false,
+      "baseline_factory_difference": null
+    },
+    {
+      "depth": 4,
+      "seed": 105,
+      "forward_finite": true,
+      "gradcam_checked": false,
+      "baseline_factory_difference": null
+    }
+  ],
+  "synthetic_gradient_math": "PASS",
+  "model_states_unchanged": true
+}

@@ -1,0 +1,22 @@
+GRADCAM reference validation: 25600/204455, 20.7s
+GRADCAM reference validation: 51200/204455, 41.8s
+GRADCAM reference validation: 76800/204455, 62.6s
+GRADCAM reference validation: 102400/204455, 83.6s
+GRADCAM reference validation: 128000/204455, 104.6s
+GRADCAM reference validation: 153600/204455, 125.4s
+GRADCAM reference validation: 179200/204455, 146.4s
+GRADCAM reference validation: 204455/204455, 166.8s
+GRADCAM COMPUTE: TP_54139 | 6 raw maps saved; plotting runs in a separate process
+GRADCAM COMPUTE: TP_242922 | 6 raw maps saved; plotting runs in a separate process
+GRADCAM COMPUTE: TP_410733 | 6 raw maps saved; plotting runs in a separate process
+GRADCAM COMPUTE: TN_36983 | 6 raw maps saved; plotting runs in a separate process
+GRADCAM COMPUTE: TN_273706 | 6 raw maps saved; plotting runs in a separate process
+GRADCAM COMPUTE: TN_552914 | 6 raw maps saved; plotting runs in a separate process
+GRADCAM COMPUTE: FP_249902 | 6 raw maps saved; plotting runs in a separate process
+GRADCAM COMPUTE: FP_429581 | 6 raw maps saved; plotting runs in a separate process
+GRADCAM COMPUTE: FP_627141 | 6 raw maps saved; plotting runs in a separate process
+GRADCAM COMPUTE: FN_30820 | 6 raw maps saved; plotting runs in a separate process
+GRADCAM COMPUTE: FN_497819 | 6 raw maps saved; plotting runs in a separate process
+GRADCAM COMPUTE: FN_523795 | 6 raw maps saved; plotting runs in a separate process
+GRADCAM COMPUTE: COMPLETE | 12 inputs, 72 maps | D:\香港学习相关文件\final-project\results\i20r20_followup_v1\gradcam
+WORKER cam_compute: COMPLETE | torch_loaded=True

@@ -1,0 +1,10 @@
+{
+  "followup_id": "52d937e727a213bca5b6fdb5d6a1059c8ae262dbbd2bbe63d4630df8aecf6217",
+  "verified_years": {
+    "2": 20,
+    "3": 20,
+    "4": 20
+  },
+  "torch_loaded": false,
+  "source_models_and_frozen_protocol_unchanged": true
+}

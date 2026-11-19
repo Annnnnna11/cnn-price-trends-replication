@@ -1,0 +1,28 @@
+{
+  "version": "i20r20_resume_v1",
+  "started_at": "2026-11-19T10:39:01.333431",
+  "python": "D:\\Anaconda_envs\\envs\\cnn20\\python.exe",
+  "package": "D:\\香港学习相关文件\\final-project\\i20r20_followup_v1",
+  "output": "D:\\香港学习相关文件\\final-project\\results\\i20r20_followup_v1",
+  "source_sha256": {
+    "compute_cam.py": "51c2174185af81888d775f691b998daa0be023ae0339dd8a86a00fe542a10bb8",
+    "render_cam.py": "55ecfecc4bc5d8856422ef575381ab1f94b822006b948876552aade2426be65f",
+    "resume.py": "95d3a07126027dc9cdd5e226ea299952ec08704fa31a5b7f68a8dad7881e9069",
+    "worker.py": "7af5a5d57e8ccb979155e5dfbb9fb3158b50f93c6e78c23484003a5264be3fcd"
+  },
+  "stages": [
+    "audit",
+    "analyze",
+    "compare",
+    "cam_compute",
+    "cam_plot",
+    "bundle"
+  ],
+  "child_environment": {
+    "MKL_THREADING_LAYER": "SEQUENTIAL",
+    "MKL_NUM_THREADS": "1",
+    "OPENBLAS_NUM_THREADS": "1",
+    "OMP_NUM_THREADS": "1"
+  },
+  "duplicate_runtime_suppression": false
+}

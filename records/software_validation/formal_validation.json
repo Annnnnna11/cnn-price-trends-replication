@@ -1,0 +1,31 @@
+{
+  "version": "i20r20_formal_v1",
+  "checks_passed": [
+    "Python syntax compilation",
+    "formal CNN byte-identical to Windows GPU-tested smoke model",
+    "missing/nonfinite labels excluded before binarization; original image row mapping",
+    "1999 tail boundary, duplicate/missing key validation",
+    "70/30 coverage, split disjointness, seed repeatability and independent splits",
+    "read-only memory-map normalization; validation-pixel changes cannot affect training statistics",
+    "accuracy/cross-entropy/MCC including degenerate-class case",
+    "synthetic preparation flow for all seven in-sample years and five members",
+    "idempotent preparation and corrupt split rejection"
+  ],
+  "not_executed_locally": [
+    "real Feather I/O in the new formal runner (local checker has no PyArrow)",
+    "formal full-dataset CUDA training/checkpoint resume (local checker has no Torch/CUDA)",
+    "any test-period scoring"
+  ],
+  "original_downloaded_sources_sha256": {
+    "Model/cnn_model.py": "33d2d84d2e42f9584aecff01ecbf72085c6b97f66fdc14c28dc5fd1f85fa51e0",
+    "Misc/config.py": "eb5e4de94ef804b15d4dd8f8f9261c734efa5b561c163d0769bc5a2b064f45ae",
+    "Data/chart_dataset.py": "f4bc1f5f689c89a72858031820258d8fe5cf711d05ab5ffcc2595e4dce4dd3a9",
+    "Experiments/cnn_experiment.py": "7bb7274d97dbf1d0982fd3f3ce8cb3eee70fe4188b2d23b14689881d12fd64a5"
+  },
+  "delivered_file_sha256": {
+    "README_I20R20_FORMAL.md": "02e1abbf7394b35c0f76114edcbc4d1e92140cf8cabcba874e3a75f1c3ed23e3",
+    "i20r20_formal/cnn20.py": "1e2844f117f2dec51532768959b75ed6b54ded2f8ba627f873c71d0bba21559d",
+    "i20r20_formal/data_utils.py": "a4b098a05128063e5044f8fb26cf52bc344268b446384aa605ab8ddeafecf4f0",
+    "i20r20_formal/run.py": "00f3103ad1694552fa3b36393e2624f9df83360893d20a4f82b97577d76929e4"
+  }
+}

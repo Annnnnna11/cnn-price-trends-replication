@@ -1,0 +1,25 @@
+{
+  "checked_on": "2026-11-19",
+  "python_311_syntax": "PASS",
+  "frozen_followup_code_and_zip": "UNCHANGED",
+  "local_checks": {
+    "same_frozen_gradcam_helpers": "PASS",
+    "CPU_workers_without_torch": "PASS",
+    "GPU_compute_without_matplotlib_static_check": "PASS",
+    "no_train_or_test_prediction_entrypoints": "PASS",
+    "synthetic_map_render_and_resume": "PASS",
+    "file_and_missing_year_guards": "PASS",
+    "subprocess_environment_and_distinct_PID": "PASS",
+    "final_zip_manifest": "PASS"
+  },
+  "not_executed": [
+    "Windows OpenMP/DLL environment reproduction",
+    "CUDA or real Grad-CAM inference"
+  ],
+  "source_sha256": {
+    "worker.py": "7af5a5d57e8ccb979155e5dfbb9fb3158b50f93c6e78c23484003a5264be3fcd",
+    "resume.py": "95d3a07126027dc9cdd5e226ea299952ec08704fa31a5b7f68a8dad7881e9069",
+    "render_cam.py": "55ecfecc4bc5d8856422ef575381ab1f94b822006b948876552aade2426be65f",
+    "compute_cam.py": "51c2174185af81888d775f691b998daa0be023ae0339dd8a86a00fe542a10bb8"
+  }
+}

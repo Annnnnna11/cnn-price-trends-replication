@@ -1,0 +1,24 @@
+{
+  "reviewed_on": "2026-11-19",
+  "followup_id": "52d937e727a213bca5b6fdb5d6a1059c8ae262dbbd2bbe63d4630df8aecf6217",
+  "handoff_files_passed": 212,
+  "zip_entries": 213,
+  "frozen_source_files_passed": 115,
+  "prediction_files_passed": 60,
+  "source_code_fingerprints": "PASS",
+  "classification_confusion_reconciliation_max_accuracy_error": 5.551115123125783e-17,
+  "classification_confusion_reconciliation_max_mcc_error": 9.71445146547012e-17,
+  "monthly_statistics_recomputed_rows": 132,
+  "monthly_statistics_max_abs_error": 2.220446049250313e-16,
+  "training_histories_checked": 15,
+  "gradcam_cases": 12,
+  "gradcam_maps": 72,
+  "zero_maps": 0,
+  "gradcam_normalization_max_abs_error": 0.0,
+  "limits": [
+    "No neural networks were rerun.",
+    "CE and AUC were not independently rescored from per-image predictions on this Mac.",
+    "Heatmaps are single-seed validation examples; no causal or investment-return guarantee.",
+    "No statistical-significance test; financial returns are historical complete-case gross returns."
+  ]
+}

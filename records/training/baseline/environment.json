@@ -1,0 +1,14 @@
+{
+  "python": "3.11.15 | packaged by Anaconda, Inc. | (main, Jun 11 2026, 15:12:53) [MSC v.1942 64 bit (AMD64)]",
+  "python_executable": "D:\\Anaconda_envs\\envs\\cnn20\\python.exe",
+  "platform": "Windows-10-10.0.26200-SP0",
+  "gpu": "NVIDIA GeForce RTX 5060 Laptop GPU",
+  "cuda_runtime": "12.8",
+  "packages": {
+    "torch": "2.7.1+cu128",
+    "numpy": "1.26.4",
+    "pandas": "2.2.3",
+    "pyarrow": "23.0.1",
+    "scikit-learn": "1.9.1"
+  }
+}

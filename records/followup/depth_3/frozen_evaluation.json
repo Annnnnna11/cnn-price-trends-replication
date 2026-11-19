@@ -1,0 +1,253 @@
+{
+  "version": "i20r20_followup_v1",
+  "depth": 3,
+  "run_id": "8e2acdd728afe87f6f0bd1d6b1d85c1181d99202efc19d1cff4734f616667293",
+  "baseline_run_id": "8e2acdd728afe87f6f0bd1d6b1d85c1181d99202efc19d1cff4734f616667293",
+  "training_dir": "D:\\香港学习相关文件\\final-project\\results\\i20r20_main_v1",
+  "data_dir": "D:\\香港学习相关文件\\final-project\\img_data\\monthly_20d",
+  "prediction_directory": "D:\\香港学习相关文件\\final-project\\results\\i20r20_baseline_eval_v1\\predictions",
+  "members": [
+    {
+      "seed": 101,
+      "best_epoch": 6,
+      "normalization": {
+        "mean": 0.1069376961017051,
+        "std": 0.3090340195741635,
+        "pixel_count": 1831906560,
+        "fitted_on": "this member's training images only",
+        "train_up_fraction": 0.49689451409574076
+      },
+      "files": {
+        "best.pt": "22ed94add765e0f4f1c8498983f0c0ac666d165c1b57363acb21286a918f36b9",
+        "normalization.json": "3de69ac2c5ec98f907e5f25c3ec4194ef8d58c81fc10d1493514eb4e1f47c54c",
+        "completed.json": "679da0ec14beac8c61aa62ee7016d3cf821a1c89c113dd1b9de7770d3ac133e9"
+      }
+    },
+    {
+      "seed": 102,
+      "best_epoch": 7,
+      "normalization": {
+        "mean": 0.10694328481470147,
+        "std": 0.30904112776092296,
+        "pixel_count": 1831906560,
+        "fitted_on": "this member's training images only",
+        "train_up_fraction": 0.49717959413825125
+      },
+      "files": {
+        "best.pt": "8f45c8a8c4eebe8ae256ec993478df5e9691932f5e16e450d0175cc7e64bee98",
+        "normalization.json": "17f26e5141c7d9fe152143741ea9553a2fe4777723f7486975415b5a273f8e1a",
+        "completed.json": "6ea2721269e4ed5824033257a65b59bde53e6b00b87bc761baace3ebf9d96d80"
+      }
+    },
+    {
+      "seed": 103,
+      "best_epoch": 3,
+      "normalization": {
+        "mean": 0.10695528051387075,
+        "std": 0.3090563839885369,
+        "pixel_count": 1831906560,
+        "fitted_on": "this member's training images only",
+        "train_up_fraction": 0.4973975965237004
+      },
+      "files": {
+        "best.pt": "8eddb2b849203d11cdbf1bc182c400adb592d6c7bd9649df22018682de956dc1",
+        "normalization.json": "d723ec1b54744e4e06df7bf7763aac6b2c7c41f9d218eccfeb238698e7eba9c6",
+        "completed.json": "cc992b83802926be7afcca5e0782cde077eae25fe161fe4b2dbe109d519005aa"
+      }
+    },
+    {
+      "seed": 104,
+      "best_epoch": 11,
+      "normalization": {
+        "mean": 0.10696170114702794,
+        "std": 0.30906454930121285,
+        "pixel_count": 1831906560,
+        "fitted_on": "this member's training images only",
+        "train_up_fraction": 0.4974604818271954
+      },
+      "files": {
+        "best.pt": "6236c3360cd1f73e0c7158593f76ece57f883c415393c27e060f29a1d63b8f2d",
+        "normalization.json": "60445544db831a984c168a05e83192c0e32ce9862fd8bac4284b5fcdb7c0c10b",
+        "completed.json": "a5bf5336e64f1751505abefc442783768f9e2a30861e79d47675c74b7d16446e"
+      }
+    },
+    {
+      "seed": 105,
+      "best_epoch": 3,
+      "normalization": {
+        "mean": 0.10693607975288871,
+        "std": 0.30903196371892105,
+        "pixel_count": 1831906560,
+        "fitted_on": "this member's training images only",
+        "train_up_fraction": 0.4977560427536217
+      },
+      "files": {
+        "best.pt": "da8b41244eb9b3dfddcc836252ed8085707300b6869cba1a0902219d12f48abb",
+        "normalization.json": "d2e57274e53d65f1c8206b5f91d3a0005efd5c66c98d7fccc45d462733ed0fbe",
+        "completed.json": "c97177b60c3f60d12ab3e1ec20910e32d76f8a42ece1a56324ba7841ca30b2c5"
+      }
+    }
+  ],
+  "study_plan": {
+    "version": "i20r20_study_plan_v1",
+    "declared_on": "2026-11-18",
+    "baseline_run_id": "8e2acdd728afe87f6f0bd1d6b1d85c1181d99202efc19d1cff4734f616667293",
+    "status_at_declaration": "All five depth-3 members trained; their validation results reviewed; no model test predictions scored.",
+    "main_task": {
+      "input_days": 20,
+      "target": "Ret_20d > 0",
+      "threshold": 0.5,
+      "tie_class": 0,
+      "training_years": [
+        1993,
+        1999
+      ],
+      "test_formation_years": [
+        2000,
+        2019
+      ],
+      "common_period_formation_years": [
+        2001,
+        2019
+      ]
+    },
+    "architecture_extension": {
+      "depths": [
+        2,
+        3,
+        4
+      ],
+      "channels": {
+        "2": [
+          64,
+          128
+        ],
+        "3": [
+          64,
+          128,
+          256
+        ],
+        "4": [
+          64,
+          128,
+          256,
+          512
+        ]
+      },
+      "seeds": [
+        101,
+        102,
+        103,
+        104,
+        105
+      ],
+      "paired_data": "Reuse the baseline member's exact split and training-only normalization for the same seed",
+      "training": "Keep learning rate, batch size, dropout, optimizer, patience and maximum epochs identical to baseline",
+      "selection": "Minimum validation CE independently within each member; no test-based selection",
+      "interpretation": "Depth and parameter count change together; not a parameter-matched depth-only causal experiment"
+    },
+    "ensemble": {
+      "members": [
+        101,
+        102,
+        103,
+        104,
+        105
+      ],
+      "weights": [
+        0.2,
+        0.2,
+        0.2,
+        0.2,
+        0.2
+      ],
+      "aggregation": "Arithmetic mean of positive-class probabilities",
+      "exclude_members_after_test": false
+    },
+    "grad_cam": {
+      "seed": 101,
+      "depths": [
+        2,
+        3,
+        4
+      ],
+      "selection_pool": "Seed 101 baseline validation split",
+      "reference_groups": [
+        "TP",
+        "TN",
+        "FP",
+        "FN"
+      ],
+      "groups_defined_by": "Depth-3 seed-101 best checkpoint with threshold strictly >0.5",
+      "samples_per_group": 3,
+      "sampling_seed": 20261118,
+      "selection": "Uniform random within each reference group; use all if fewer than 3; do not backfill from other groups",
+      "same_images_across_depths": true,
+      "target_classes": [
+        0,
+        1
+      ],
+      "target_score": "Pre-softmax class logit",
+      "target_layer": "Output of the last convolution block's LeakyReLU, before pooling",
+      "mode": "eval mode with gradients enabled, no optimizer or weight updates",
+      "map": "Spatial-average gradient channel weights, weighted activation sum, ReLU, upsample to 64x60",
+      "scope": "Single fixed-seed model per depth; not an ensemble attribution",
+      "caveat": "Native map resolution differs across depth; normalized color intensity is not a cross-model absolute importance scale"
+    },
+    "test_inference": {
+      "input_filter": "finite EWMA_vol > 0 only; do not require observed future return to generate a prediction",
+      "classification_mask": "Eligible input, finite prediction and finite Ret_20d",
+      "precision": "float32, no AMP or TF32",
+      "batch_size": 128,
+      "workers": 0
+    },
+    "classification_metrics": [
+      "cross_entropy",
+      "accuracy",
+      "mcc",
+      "balanced_accuracy",
+      "roc_auc",
+      "brier"
+    ],
+    "probability_clip_epsilon": 1e-07,
+    "zero_monthly_std_tolerance": 1e-12,
+    "baselines": [
+      "Constant probability fitted from each member's saved training up fraction",
+      "Constant probability equal to the five training fractions' mean",
+      "Always up classification",
+      "Always non-up classification"
+    ],
+    "financial_evaluation": {
+      "signal": "Fixed I20/R20 ensemble probability",
+      "return": "Ret_month, distinct from the Ret_20d classification target",
+      "rebalance": "One formation date per calendar month, monthend-to-next-monthend holding returns",
+      "universe": "Input-eligible historical complete cases with finite Ret_month >= -1 and finite absolute MarketCap > 0; missing-return exclusion audited",
+      "selection_caveat": "Complete-case filtering follows the reference code's historical comparison convention and can introduce return-availability selection bias; not a frictionless implementable-strategy guarantee",
+      "sort": "Ten within-date percentile groups; first group includes its lower bound, subsequent groups exclude their lower bound and include upper bound",
+      "ties": "If any group is empty or 10th/90th percentiles coincide, omit the date and audit it; do not invent zero returns",
+      "weights": [
+        "equal",
+        "absolute formation-date market-cap"
+      ],
+      "spread": "High minus Low, 100% long and 100% short",
+      "annualized_return": "12 times mean observed monthly return; arithmetic, not CAGR",
+      "annualized_volatility": "sqrt(12) times sample monthly standard deviation, ddof=1",
+      "sharpe": "sqrt(12) times monthly mean divided by sample standard deviation; zero risk-free assumption",
+      "costs": "Gross: no transaction costs, borrow fees or financing adjustment",
+      "missing_months": "Report explicitly; do not fill zero; no cumulative wealth plot across internal gaps",
+      "not_estimated": [
+        "turnover",
+        "t-statistics",
+        "net returns"
+      ]
+    },
+    "guardrails": [
+      "Keep the depth-3 training folder and weights unchanged",
+      "Do not choose architectures, seeds, thresholds or blend weights from test scores",
+      "Report single-member and ensemble test results separately",
+      "Different training years and return labels prevent a strict numerical identity claim relative to the paper",
+      "Record input and checkpoint hashes and allow safe per-year prediction resume"
+    ]
+  },
+  "evaluation_id": "5bb774d327b649a5d5f05304c72115fc24038e8ceef4cfb59c090f389d790213"
+}

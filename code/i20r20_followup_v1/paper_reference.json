@@ -1,0 +1,11 @@
+{
+  "source": "User-supplied ssrn-3756587.pdf, Table 2 (PDF page 19), Table IA3 (PDF page 55)",
+  "task": "I20/R20",
+  "training_validation_years": "1993-2000",
+  "test_formation_years": "2001-2019",
+  "returns": "Monthly holding, annualized arithmetic mean, gross",
+  "note": "Printed values are rounded. Do not recompute H-L from rounded High/Low or claim an exactly matched training experiment.",
+  "portfolios": ["D1","D2","D3","D4","D5","D6","D7","D8","D9","D10","H-L"],
+  "EW": {"table": "Table 2", "annualized_return": [-0.02,0.05,0.07,0.09,0.11,0.11,0.13,0.14,0.15,0.18,0.21], "sharpe": [-0.12,0.28,0.39,0.49,0.59,0.59,0.74,0.81,0.87,1.04,2.16]},
+  "VW": {"table": "Table IA3", "annualized_return": [0.05,0.04,0.05,0.05,0.06,0.08,0.08,0.09,0.08,0.11,0.05], "sharpe": [0.28,0.21,0.32,0.33,0.40,0.50,0.51,0.58,0.55,0.67,0.49]}
+}

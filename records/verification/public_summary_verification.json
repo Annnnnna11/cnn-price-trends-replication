@@ -1,0 +1,15 @@
+{
+  "status": "PASS",
+  "classification_summary_rows": 924,
+  "max_accuracy_error": 5.551115123125783e-17,
+  "max_mcc_error": 9.71445146547012e-17,
+  "financial_summary_rows": 132,
+  "max_financial_error": 2.220446049250313e-16,
+  "training_histories_checked": 15,
+  "gradcam_cases": 12,
+  "gradcam_maps": 72,
+  "zero_maps": 0,
+  "max_gradcam_normalization_error": 0.0,
+  "torch_loaded": false,
+  "scope": "Summary reconciliation and saved-array checks only; no retraining, checkpoint loading or per-image CE/AUC rescoring."
+}

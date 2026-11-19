@@ -1,0 +1,139 @@
+{
+  "followup_id": "52d937e727a213bca5b6fdb5d6a1059c8ae262dbbd2bbe63d4630df8aecf6217",
+  "sampling_seed": 20261118,
+  "group_order": [
+    "TP",
+    "TN",
+    "FP",
+    "FN"
+  ],
+  "group_population": {
+    "TP": 43425,
+    "TN": 65927,
+    "FP": 36553,
+    "FN": 58550
+  },
+  "reference": "depth3 seed101 validation; p>0.5; catalog-index sorted pool",
+  "samples": [
+    {
+      "CatalogIndex": 54139,
+      "Year": 1993,
+      "Row": 54390,
+      "Date": "1993-05-28 00:00:00",
+      "StockID": "76096",
+      "Label": 1,
+      "reference_probability": 0.526059627532959,
+      "reference_group": "TP"
+    },
+    {
+      "CatalogIndex": 242922,
+      "Year": 1995,
+      "Row": 63864,
+      "Date": "1995-10-31 00:00:00",
+      "StockID": "78019",
+      "Label": 1,
+      "reference_probability": 0.5276098251342773,
+      "reference_group": "TP"
+    },
+    {
+      "CatalogIndex": 410733,
+      "Year": 1997,
+      "Row": 32087,
+      "Date": "1997-08-29 00:00:00",
+      "StockID": "66130",
+      "Label": 1,
+      "reference_probability": 0.5099028944969177,
+      "reference_group": "TP"
+    },
+    {
+      "CatalogIndex": 36983,
+      "Year": 1993,
+      "Row": 37162,
+      "Date": "1993-09-30 00:00:00",
+      "StockID": "60695",
+      "Label": 0,
+      "reference_probability": 0.43322235345840454,
+      "reference_group": "TN"
+    },
+    {
+      "CatalogIndex": 273706,
+      "Year": 1995,
+      "Row": 94852,
+      "Date": "1995-12-29 00:00:00",
+      "StockID": "85172",
+      "Label": 0,
+      "reference_probability": 0.4354635775089264,
+      "reference_group": "TN"
+    },
+    {
+      "CatalogIndex": 552914,
+      "Year": 1998,
+      "Row": 68296,
+      "Date": "1998-03-31 00:00:00",
+      "StockID": "81078",
+      "Label": 0,
+      "reference_probability": 0.44096946716308594,
+      "reference_group": "TN"
+    },
+    {
+      "CatalogIndex": 249902,
+      "Year": 1995,
+      "Row": 70899,
+      "Date": "1995-05-31 00:00:00",
+      "StockID": "79226",
+      "Label": 0,
+      "reference_probability": 0.5482384562492371,
+      "reference_group": "FP"
+    },
+    {
+      "CatalogIndex": 429581,
+      "Year": 1997,
+      "Row": 51064,
+      "Date": "1997-12-31 00:00:00",
+      "StockID": "77495",
+      "Label": 0,
+      "reference_probability": 0.5247488021850586,
+      "reference_group": "FP"
+    },
+    {
+      "CatalogIndex": 627141,
+      "Year": 1999,
+      "Row": 40205,
+      "Date": "1999-09-30 00:00:00",
+      "StockID": "77313",
+      "Label": 0,
+      "reference_probability": 0.5146408081054688,
+      "reference_group": "FP"
+    },
+    {
+      "CatalogIndex": 30820,
+      "Year": 1993,
+      "Row": 30979,
+      "Date": "1993-09-30 00:00:00",
+      "StockID": "50286",
+      "Label": 1,
+      "reference_probability": 0.42182567715644836,
+      "reference_group": "FN"
+    },
+    {
+      "CatalogIndex": 497819,
+      "Year": 1998,
+      "Row": 12601,
+      "Date": "1998-09-30 00:00:00",
+      "StockID": "25961",
+      "Label": 1,
+      "reference_probability": 0.4443594515323639,
+      "reference_group": "FN"
+    },
+    {
+      "CatalogIndex": 523795,
+      "Year": 1998,
+      "Row": 38793,
+      "Date": "1998-02-27 00:00:00",
+      "StockID": "76226",
+      "Label": 1,
+      "reference_probability": 0.4127524197101593,
+      "reference_group": "FN"
+    }
+  ]
+}

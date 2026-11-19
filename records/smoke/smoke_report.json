@@ -1,0 +1,61 @@
+{
+  "purpose": "pipeline smoke test only; not full-experiment accuracy or runtime",
+  "implementation": "i20r20_smoke_v1; CNN architecture adapted from authors' code",
+  "python": "3.11.15 | packaged by Anaconda, Inc. | (main, Jun 11 2026, 15:12:53) [MSC v.1942 64 bit (AMD64)]",
+  "python_executable": "D:\\Anaconda_envs\\envs\\cnn20\\python.exe",
+  "platform": "Windows-10-10.0.26200-SP0",
+  "packages": {
+    "torch": "2.7.1+cu128",
+    "numpy": "1.26.4",
+    "pandas": "2.2.3",
+    "pyarrow": "23.0.1",
+    "scikit-learn": "1.9.1"
+  },
+  "gpu": "NVIDIA GeForce RTX 5060 Laptop GPU",
+  "cuda_runtime": "12.8",
+  "data_dir": "D:\\\u9999\u6e2f\u5b66\u4e60\u76f8\u5173\u6587\u4ef6\\final-project\\img_data\\monthly_20d",
+  "seed": 20261117,
+  "parameters": 708866,
+  "target": "Ret_20d > 0, after excluding non-finite returns",
+  "year": 1993,
+  "n_train": 2048,
+  "n_validation": 512,
+  "batch_size": 128,
+  "epochs": 2,
+  "learning_rate": 1e-05,
+  "normalization_mean": 0.11200752258300781,
+  "normalization_std": 0.3153757084301592,
+  "peak_cuda_allocated_mib": 949.75146484375,
+  "history": [
+    {
+      "epoch": 1,
+      "train": {
+        "loss": 1.0130517520010471,
+        "accuracy": 0.51513671875,
+        "samples": 2048,
+        "seconds": 2.880318700001226
+      },
+      "validation": {
+        "loss": 0.6925036460161209,
+        "accuracy": 0.529296875,
+        "samples": 512,
+        "seconds": 0.49471379999886267
+      }
+    },
+    {
+      "epoch": 2,
+      "train": {
+        "loss": 1.0144085250794888,
+        "accuracy": 0.5146484375,
+        "samples": 2048,
+        "seconds": 2.1285294000044814
+      },
+      "validation": {
+        "loss": 0.7497377246618271,
+        "accuracy": 0.5,
+        "samples": 512,
+        "seconds": 0.405909299995983
+      }
+    }
+  ]
+}

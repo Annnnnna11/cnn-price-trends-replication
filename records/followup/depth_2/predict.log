@@ -1,0 +1,178 @@
+GPU: NVIDIA GeForce RTX 5060 Laptop GPU | Python: D:\Anaconda_envs\envs\cnn20\python.exe
+Seed 101: best epoch 5, checkpoint loaded
+Seed 102: best epoch 7, checkpoint loaded
+Seed 103: best epoch 3, checkpoint loaded
+Seed 104: best epoch 3, checkpoint loaded
+Seed 105: best epoch 6, checkpoint loaded
+2000: auditing label structure and hashing source files...
+2000: batch 100/767; images=12800/98081; elapsed=48.8s; all five models
+2000: batch 200/767; images=25600/98081; elapsed=89.9s; all five models
+2000: batch 300/767; images=38400/98081; elapsed=132.9s; all five models
+2000: batch 400/767; images=51200/98081; elapsed=172.8s; all five models
+2000: batch 500/767; images=64000/98081; elapsed=218.7s; all five models
+2000: batch 600/767; images=76800/98081; elapsed=261.0s; all five models
+2000: batch 700/767; images=89600/98081; elapsed=308.1s; all five models
+2000: batch 767/767; images=98081/98081; elapsed=339.1s; all five models
+2000: PREDICTION SAVED | 5.65 min | 137.9 MiB allocated
+2001: auditing label structure and hashing source files...
+2001: batch 100/719; images=12800/91923; elapsed=44.2s; all five models
+2001: batch 200/719; images=25600/91923; elapsed=85.0s; all five models
+2001: batch 300/719; images=38400/91923; elapsed=127.5s; all five models
+2001: batch 400/719; images=51200/91923; elapsed=168.2s; all five models
+2001: batch 500/719; images=64000/91923; elapsed=210.6s; all five models
+2001: batch 600/719; images=76800/91923; elapsed=251.6s; all five models
+2001: batch 700/719; images=89600/91923; elapsed=292.5s; all five models
+2001: batch 719/719; images=91923/91923; elapsed=299.7s; all five models
+2001: PREDICTION SAVED | 5.00 min | 137.9 MiB allocated
+2002: auditing label structure and hashing source files...
+2002: batch 100/670; images=12800/85669; elapsed=41.2s; all five models
+2002: batch 200/670; images=25600/85669; elapsed=82.0s; all five models
+2002: batch 300/670; images=38400/85669; elapsed=127.0s; all five models
+2002: batch 400/670; images=51200/85669; elapsed=171.7s; all five models
+2002: batch 500/670; images=64000/85669; elapsed=225.6s; all five models
+2002: batch 600/670; images=76800/85669; elapsed=265.0s; all five models
+2002: batch 670/670; images=85669/85669; elapsed=292.4s; all five models
+2002: PREDICTION SAVED | 4.87 min | 137.9 MiB allocated
+2003: auditing label structure and hashing source files...
+2003: batch 100/632; images=12800/80834; elapsed=43.3s; all five models
+2003: batch 200/632; images=25600/80834; elapsed=86.2s; all five models
+2003: batch 300/632; images=38400/80834; elapsed=131.5s; all five models
+2003: batch 400/632; images=51200/80834; elapsed=175.1s; all five models
+2003: batch 500/632; images=64000/80834; elapsed=218.4s; all five models
+2003: batch 600/632; images=76800/80834; elapsed=270.5s; all five models
+2003: batch 632/632; images=80834/80834; elapsed=283.0s; all five models
+2003: PREDICTION SAVED | 4.72 min | 137.9 MiB allocated
+2004: auditing label structure and hashing source files...
+2004: batch 100/621; images=12800/79452; elapsed=46.8s; all five models
+2004: batch 200/621; images=25600/79452; elapsed=89.5s; all five models
+2004: batch 300/621; images=38400/79452; elapsed=129.7s; all five models
+2004: batch 400/621; images=51200/79452; elapsed=177.2s; all five models
+2004: batch 500/621; images=64000/79452; elapsed=218.6s; all five models
+2004: batch 600/621; images=76800/79452; elapsed=260.0s; all five models
+2004: batch 621/621; images=79452/79452; elapsed=268.3s; all five models
+2004: PREDICTION SAVED | 4.47 min | 137.9 MiB allocated
+2005: auditing label structure and hashing source files...
+2005: batch 100/624; images=12800/79813; elapsed=55.1s; all five models
+2005: batch 200/624; images=25600/79813; elapsed=99.4s; all five models
+2005: batch 300/624; images=38400/79813; elapsed=139.1s; all five models
+2005: batch 400/624; images=51200/79813; elapsed=178.7s; all five models
+2005: batch 500/624; images=64000/79813; elapsed=223.9s; all five models
+2005: batch 600/624; images=76800/79813; elapsed=264.2s; all five models
+2005: batch 624/624; images=79813/79813; elapsed=273.5s; all five models
+2005: PREDICTION SAVED | 4.56 min | 137.9 MiB allocated
+2006: auditing label structure and hashing source files...
+2006: batch 100/626; images=12800/80094; elapsed=41.0s; all five models
+2006: batch 200/626; images=25600/80094; elapsed=80.7s; all five models
+2006: batch 300/626; images=38400/80094; elapsed=120.1s; all five models
+2006: batch 400/626; images=51200/80094; elapsed=160.4s; all five models
+2006: batch 500/626; images=64000/80094; elapsed=201.4s; all five models
+2006: batch 600/626; images=76800/80094; elapsed=243.0s; all five models
+2006: batch 626/626; images=80094/80094; elapsed=253.2s; all five models
+2006: PREDICTION SAVED | 4.22 min | 137.9 MiB allocated
+2007: auditing label structure and hashing source files...
+2007: batch 100/634; images=12800/81075; elapsed=39.9s; all five models
+2007: batch 200/634; images=25600/81075; elapsed=82.4s; all five models
+2007: batch 300/634; images=38400/81075; elapsed=127.6s; all five models
+2007: batch 400/634; images=51200/81075; elapsed=173.4s; all five models
+2007: batch 500/634; images=64000/81075; elapsed=222.2s; all five models
+2007: batch 600/634; images=76800/81075; elapsed=262.6s; all five models
+2007: batch 634/634; images=81075/81075; elapsed=278.7s; all five models
+2007: PREDICTION SAVED | 4.64 min | 160.0 MiB allocated
+2008: auditing label structure and hashing source files...
+2008: batch 100/611; images=12800/78125; elapsed=48.8s; all five models
+2008: batch 200/611; images=25600/78125; elapsed=90.4s; all five models
+2008: batch 300/611; images=38400/78125; elapsed=138.9s; all five models
+2008: batch 400/611; images=51200/78125; elapsed=179.0s; all five models
+2008: batch 500/611; images=64000/78125; elapsed=218.7s; all five models
+2008: batch 600/611; images=76800/78125; elapsed=259.3s; all five models
+2008: batch 611/611; images=78125/78125; elapsed=264.0s; all five models
+2008: PREDICTION SAVED | 4.40 min | 147.1 MiB allocated
+2009: auditing label structure and hashing source files...
+2009: batch 100/547; images=12800/70006; elapsed=49.5s; all five models
+2009: batch 200/547; images=25600/70006; elapsed=99.2s; all five models
+2009: batch 300/547; images=38400/70006; elapsed=147.5s; all five models
+2009: batch 400/547; images=51200/70006; elapsed=194.3s; all five models
+2009: batch 500/547; images=64000/70006; elapsed=244.4s; all five models
+2009: batch 547/547; images=70006/70006; elapsed=267.8s; all five models
+2009: PREDICTION SAVED | 4.46 min | 137.9 MiB allocated
+2010: auditing label structure and hashing source files...
+2010: batch 100/532; images=12800/68051; elapsed=49.6s; all five models
+2010: batch 200/532; images=25600/68051; elapsed=104.3s; all five models
+2010: batch 300/532; images=38400/68051; elapsed=144.6s; all five models
+2010: batch 400/532; images=51200/68051; elapsed=190.5s; all five models
+2010: batch 500/532; images=64000/68051; elapsed=247.0s; all five models
+2010: batch 532/532; images=68051/68051; elapsed=266.6s; all five models
+2010: PREDICTION SAVED | 4.44 min | 137.9 MiB allocated
+2011: auditing label structure and hashing source files...
+2011: batch 100/526; images=12800/67265; elapsed=40.7s; all five models
+2011: batch 200/526; images=25600/67265; elapsed=79.8s; all five models
+2011: batch 300/526; images=38400/67265; elapsed=124.6s; all five models
+2011: batch 400/526; images=51200/67265; elapsed=173.7s; all five models
+2011: batch 500/526; images=64000/67265; elapsed=213.7s; all five models
+2011: batch 526/526; images=67265/67265; elapsed=224.3s; all five models
+2011: PREDICTION SAVED | 3.74 min | 137.9 MiB allocated
+2012: auditing label structure and hashing source files...
+2012: batch 100/518; images=12800/66198; elapsed=40.7s; all five models
+2012: batch 200/518; images=25600/66198; elapsed=83.6s; all five models
+2012: batch 300/518; images=38400/66198; elapsed=137.7s; all five models
+2012: batch 400/518; images=51200/66198; elapsed=176.9s; all five models
+2012: batch 500/518; images=64000/66198; elapsed=216.0s; all five models
+2012: batch 518/518; images=66198/66198; elapsed=230.7s; all five models
+2012: PREDICTION SAVED | 3.84 min | 137.9 MiB allocated
+2013: auditing label structure and hashing source files...
+2013: batch 100/512; images=12800/65449; elapsed=39.3s; all five models
+2013: batch 200/512; images=25600/65449; elapsed=86.5s; all five models
+2013: batch 300/512; images=38400/65449; elapsed=126.3s; all five models
+2013: batch 400/512; images=51200/65449; elapsed=168.7s; all five models
+2013: batch 500/512; images=64000/65449; elapsed=214.0s; all five models
+2013: batch 512/512; images=65449/65449; elapsed=218.5s; all five models
+2013: PREDICTION SAVED | 3.64 min | 137.9 MiB allocated
+2014: auditing label structure and hashing source files...
+2014: batch 100/526; images=12800/67256; elapsed=50.0s; all five models
+2014: batch 200/526; images=25600/67256; elapsed=89.3s; all five models
+2014: batch 300/526; images=38400/67256; elapsed=130.1s; all five models
+2014: batch 400/526; images=51200/67256; elapsed=171.2s; all five models
+2014: batch 500/526; images=64000/67256; elapsed=226.9s; all five models
+2014: batch 526/526; images=67256/67256; elapsed=236.9s; all five models
+2014: PREDICTION SAVED | 3.95 min | 170.4 MiB allocated
+2015: auditing label structure and hashing source files...
+2015: batch 100/538; images=12800/68764; elapsed=41.3s; all five models
+2015: batch 200/538; images=25600/68764; elapsed=82.2s; all five models
+2015: batch 300/538; images=38400/68764; elapsed=126.9s; all five models
+2015: batch 400/538; images=51200/68764; elapsed=169.3s; all five models
+2015: batch 500/538; images=64000/68764; elapsed=211.3s; all five models
+2015: batch 538/538; images=68764/68764; elapsed=226.1s; all five models
+2015: PREDICTION SAVED | 3.77 min | 137.9 MiB allocated
+2016: auditing label structure and hashing source files...
+2016: batch 100/532; images=12800/68066; elapsed=59.1s; all five models
+2016: batch 200/532; images=25600/68066; elapsed=102.6s; all five models
+2016: batch 300/532; images=38400/68066; elapsed=146.5s; all five models
+2016: batch 400/532; images=51200/68066; elapsed=191.4s; all five models
+2016: batch 500/532; images=64000/68066; elapsed=230.7s; all five models
+2016: batch 532/532; images=68066/68066; elapsed=243.1s; all five models
+2016: PREDICTION SAVED | 4.05 min | 137.9 MiB allocated
+2017: auditing label structure and hashing source files...
+2017: batch 100/530; images=12800/67778; elapsed=40.5s; all five models
+2017: batch 200/530; images=25600/67778; elapsed=79.7s; all five models
+2017: batch 300/530; images=38400/67778; elapsed=131.3s; all five models
+2017: batch 400/530; images=51200/67778; elapsed=190.6s; all five models
+2017: batch 500/530; images=64000/67778; elapsed=230.3s; all five models
+2017: batch 530/530; images=67778/67778; elapsed=245.2s; all five models
+2017: PREDICTION SAVED | 4.09 min | 137.9 MiB allocated
+2018: auditing label structure and hashing source files...
+2018: batch 100/535; images=12800/68422; elapsed=42.0s; all five models
+2018: batch 200/535; images=25600/68422; elapsed=92.7s; all five models
+2018: batch 300/535; images=38400/68422; elapsed=131.8s; all five models
+2018: batch 400/535; images=51200/68422; elapsed=175.0s; all five models
+2018: batch 500/535; images=64000/68422; elapsed=214.8s; all five models
+2018: batch 535/535; images=68422/68422; elapsed=228.3s; all five models
+2018: PREDICTION SAVED | 3.81 min | 137.9 MiB allocated
+2019: auditing label structure and hashing source files...
+2019: batch 100/536; images=12800/68584; elapsed=55.8s; all five models
+2019: batch 200/536; images=25600/68584; elapsed=95.2s; all five models
+2019: batch 300/536; images=38400/68584; elapsed=134.5s; all five models
+2019: batch 400/536; images=51200/68584; elapsed=173.7s; all five models
+2019: batch 500/536; images=64000/68584; elapsed=221.5s; all five models
+2019: batch 536/536; images=68584/68584; elapsed=236.0s; all five models
+2019: PREDICTION SAVED | 3.93 min | 137.9 MiB allocated
+PREDICT: 20/20 years saved. No training performed.

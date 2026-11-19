@@ -1,0 +1,983 @@
+TRAIN started: 2026-11-17T14:01:03
+Python: D:\Anaconda_envs\envs\cnn20\python.exe
+GPU: NVIDIA GeForce RTX 5060 Laptop GPU
+Test years 2000-2019 are not loaded or scored by this entry point.
+Seed 101: train=477059, validation=204455
+Seed 101, epoch 1/50
+  train: batch 250/3728, CE=1.051136, elapsed=34.8s
+  train: batch 500/3728, CE=1.038175, elapsed=70.2s
+  train: batch 750/3728, CE=1.023775, elapsed=105.4s
+  train: batch 1000/3728, CE=1.013979, elapsed=140.0s
+  train: batch 1250/3728, CE=1.006104, elapsed=174.5s
+  train: batch 1500/3728, CE=0.998972, elapsed=209.3s
+  train: batch 1750/3728, CE=0.991771, elapsed=244.6s
+  train: batch 2000/3728, CE=0.985981, elapsed=279.8s
+  train: batch 2250/3728, CE=0.980469, elapsed=314.7s
+  train: batch 2500/3728, CE=0.974315, elapsed=349.5s
+  train: batch 2750/3728, CE=0.968307, elapsed=384.6s
+  train: batch 3000/3728, CE=0.962402, elapsed=420.3s
+  train: batch 3250/3728, CE=0.956507, elapsed=454.6s
+  train: batch 3500/3728, CE=0.951217, elapsed=488.9s
+  train: batch 3728/3728, CE=0.946779, elapsed=520.7s
+  validation: batch 250/1598, CE=0.720340, elapsed=27.6s
+  validation: batch 500/1598, CE=0.721309, elapsed=54.7s
+  validation: batch 750/1598, CE=0.721571, elapsed=81.2s
+  validation: batch 1000/1598, CE=0.721047, elapsed=108.4s
+  validation: batch 1250/1598, CE=0.721589, elapsed=136.4s
+  validation: batch 1500/1598, CE=0.721720, elapsed=164.6s
+  validation: batch 1598/1598, CE=0.721854, elapsed=174.9s
+Seed 101 epoch 1: train CE=0.946779 acc=0.5041; validation CE=0.721854 acc=0.5149 MCC=0.0329; best=1, no-improvement=0/2; SAVED
+Seed 101, epoch 2/50
+TRAIN started: 2026-11-17T14:16:36
+Python: D:\Anaconda_envs\envs\cnn20\python.exe
+GPU: NVIDIA GeForce RTX 5060 Laptop GPU
+Test years 2000-2019 are not loaded or scored by this entry point.
+Seed 101: resuming after complete epoch 1
+Seed 101: train=477059, validation=204455
+Seed 101, epoch 2/50
+  train: batch 250/3728, CE=0.860231, elapsed=29.5s
+  train: batch 500/3728, CE=0.856103, elapsed=58.6s
+  train: batch 750/3728, CE=0.851970, elapsed=88.1s
+  train: batch 1000/3728, CE=0.847693, elapsed=117.3s
+  train: batch 1250/3728, CE=0.843510, elapsed=146.8s
+  train: batch 1500/3728, CE=0.839850, elapsed=176.3s
+  train: batch 1750/3728, CE=0.837054, elapsed=205.6s
+  train: batch 2000/3728, CE=0.834544, elapsed=235.0s
+  train: batch 2250/3728, CE=0.831928, elapsed=264.3s
+  train: batch 2500/3728, CE=0.829131, elapsed=293.5s
+  train: batch 2750/3728, CE=0.826093, elapsed=323.0s
+  train: batch 3000/3728, CE=0.822899, elapsed=352.5s
+  train: batch 3250/3728, CE=0.820415, elapsed=382.6s
+  train: batch 3500/3728, CE=0.818205, elapsed=411.9s
+  train: batch 3728/3728, CE=0.816321, elapsed=438.5s
+  validation: batch 250/1598, CE=0.695329, elapsed=21.8s
+  validation: batch 500/1598, CE=0.695717, elapsed=43.9s
+  validation: batch 750/1598, CE=0.695623, elapsed=65.3s
+  validation: batch 1000/1598, CE=0.695741, elapsed=86.6s
+  validation: batch 1250/1598, CE=0.695918, elapsed=108.4s
+  validation: batch 1500/1598, CE=0.696076, elapsed=137.7s
+  validation: batch 1598/1598, CE=0.696105, elapsed=149.8s
+Seed 101 epoch 2: train CE=0.816321 acc=0.5126; validation CE=0.696105 acc=0.5242 MCC=0.0501; best=2, no-improvement=0/2; SAVED
+Seed 101, epoch 3/50
+  train: batch 250/3728, CE=0.774199, elapsed=29.0s
+  train: batch 500/3728, CE=0.772459, elapsed=58.2s
+  train: batch 750/3728, CE=0.772556, elapsed=87.2s
+  train: batch 1000/3728, CE=0.770315, elapsed=116.4s
+  train: batch 1250/3728, CE=0.768700, elapsed=145.5s
+  train: batch 1500/3728, CE=0.766999, elapsed=174.7s
+  train: batch 1750/3728, CE=0.766114, elapsed=204.0s
+  train: batch 2000/3728, CE=0.764454, elapsed=233.3s
+  train: batch 2250/3728, CE=0.763260, elapsed=262.6s
+  train: batch 2500/3728, CE=0.761930, elapsed=291.8s
+  train: batch 2750/3728, CE=0.760597, elapsed=320.9s
+  train: batch 3000/3728, CE=0.759592, elapsed=350.0s
+  train: batch 3250/3728, CE=0.758184, elapsed=379.4s
+  train: batch 3500/3728, CE=0.756957, elapsed=408.9s
+  train: batch 3728/3728, CE=0.756060, elapsed=435.4s
+  validation: batch 250/1598, CE=0.693163, elapsed=25.4s
+  validation: batch 500/1598, CE=0.693141, elapsed=47.1s
+  validation: batch 750/1598, CE=0.692917, elapsed=68.4s
+  validation: batch 1000/1598, CE=0.693000, elapsed=93.1s
+  validation: batch 1250/1598, CE=0.693187, elapsed=119.5s
+  validation: batch 1500/1598, CE=0.693279, elapsed=141.3s
+  validation: batch 1598/1598, CE=0.693259, elapsed=150.1s
+Seed 101 epoch 3: train CE=0.756060 acc=0.5158; validation CE=0.693259 acc=0.5296 MCC=0.0599; best=3, no-improvement=0/2; SAVED
+Seed 101, epoch 4/50
+  train: batch 250/3728, CE=0.740049, elapsed=29.0s
+  train: batch 500/3728, CE=0.738154, elapsed=58.2s
+  train: batch 750/3728, CE=0.736581, elapsed=87.3s
+  train: batch 1000/3728, CE=0.736133, elapsed=116.3s
+  train: batch 1250/3728, CE=0.735499, elapsed=145.6s
+  train: batch 1500/3728, CE=0.735161, elapsed=174.6s
+  train: batch 1750/3728, CE=0.734169, elapsed=203.6s
+  train: batch 2000/3728, CE=0.733117, elapsed=232.8s
+  train: batch 2250/3728, CE=0.732649, elapsed=262.0s
+  train: batch 2500/3728, CE=0.731798, elapsed=291.1s
+  train: batch 2750/3728, CE=0.731163, elapsed=320.9s
+  train: batch 3000/3728, CE=0.730673, elapsed=350.5s
+  train: batch 3250/3728, CE=0.730357, elapsed=379.9s
+  train: batch 3500/3728, CE=0.729640, elapsed=409.6s
+  train: batch 3728/3728, CE=0.729030, elapsed=436.5s
+  validation: batch 250/1598, CE=0.699089, elapsed=22.1s
+  validation: batch 500/1598, CE=0.698911, elapsed=44.2s
+  validation: batch 750/1598, CE=0.698764, elapsed=65.4s
+  validation: batch 1000/1598, CE=0.699099, elapsed=87.1s
+  validation: batch 1250/1598, CE=0.699074, elapsed=110.9s
+  validation: batch 1500/1598, CE=0.699136, elapsed=136.4s
+  validation: batch 1598/1598, CE=0.699137, elapsed=145.0s
+Seed 101 epoch 4: train CE=0.729030 acc=0.5167; validation CE=0.699137 acc=0.5149 MCC=0.0507; best=3, no-improvement=1/2; SAVED
+Seed 101, epoch 5/50
+  train: batch 250/3728, CE=0.719381, elapsed=29.0s
+  train: batch 500/3728, CE=0.717354, elapsed=58.3s
+  train: batch 750/3728, CE=0.716235, elapsed=87.4s
+  train: batch 1000/3728, CE=0.716215, elapsed=121.6s
+  train: batch 1250/3728, CE=0.715952, elapsed=157.8s
+  train: batch 1500/3728, CE=0.716443, elapsed=199.1s
+  train: batch 1750/3728, CE=0.716509, elapsed=238.1s
+  train: batch 2000/3728, CE=0.716534, elapsed=276.8s
+  train: batch 2250/3728, CE=0.716245, elapsed=318.9s
+  train: batch 2500/3728, CE=0.715926, elapsed=361.2s
+  train: batch 2750/3728, CE=0.715957, elapsed=398.8s
+  train: batch 3000/3728, CE=0.715387, elapsed=439.5s
+  train: batch 3250/3728, CE=0.714855, elapsed=478.9s
+  train: batch 3500/3728, CE=0.714593, elapsed=516.2s
+  train: batch 3728/3728, CE=0.714320, elapsed=552.1s
+  validation: batch 250/1598, CE=0.689680, elapsed=25.9s
+  validation: batch 500/1598, CE=0.689546, elapsed=51.9s
+  validation: batch 750/1598, CE=0.689703, elapsed=79.8s
+  validation: batch 1000/1598, CE=0.689795, elapsed=104.6s
+  validation: batch 1250/1598, CE=0.689812, elapsed=130.9s
+  validation: batch 1500/1598, CE=0.689941, elapsed=163.3s
+  validation: batch 1598/1598, CE=0.689959, elapsed=173.0s
+Seed 101 epoch 5: train CE=0.714320 acc=0.5205; validation CE=0.689959 acc=0.5323 MCC=0.0649; best=5, no-improvement=0/2; SAVED
+Seed 101, epoch 6/50
+  train: batch 250/3728, CE=0.708793, elapsed=37.8s
+  train: batch 500/3728, CE=0.707938, elapsed=74.5s
+  train: batch 750/3728, CE=0.708115, elapsed=113.8s
+  train: batch 1000/3728, CE=0.707804, elapsed=151.0s
+  train: batch 1250/3728, CE=0.707148, elapsed=189.8s
+  train: batch 1500/3728, CE=0.706707, elapsed=229.2s
+  train: batch 1750/3728, CE=0.706249, elapsed=269.1s
+  train: batch 2000/3728, CE=0.706085, elapsed=306.8s
+  train: batch 2250/3728, CE=0.705788, elapsed=346.9s
+  train: batch 2500/3728, CE=0.705837, elapsed=386.0s
+  train: batch 2750/3728, CE=0.705748, elapsed=424.7s
+  train: batch 3000/3728, CE=0.705541, elapsed=461.6s
+  train: batch 3250/3728, CE=0.705401, elapsed=503.3s
+  train: batch 3500/3728, CE=0.705218, elapsed=541.2s
+  train: batch 3728/3728, CE=0.704961, elapsed=578.2s
+  validation: batch 250/1598, CE=0.688932, elapsed=24.5s
+  validation: batch 500/1598, CE=0.688973, elapsed=48.8s
+  validation: batch 750/1598, CE=0.689171, elapsed=73.6s
+  validation: batch 1000/1598, CE=0.689212, elapsed=100.1s
+  validation: batch 1250/1598, CE=0.689264, elapsed=124.6s
+  validation: batch 1500/1598, CE=0.689376, elapsed=148.9s
+  validation: batch 1598/1598, CE=0.689322, elapsed=158.6s
+Seed 101 epoch 6: train CE=0.704961 acc=0.5263; validation CE=0.689322 acc=0.5348 MCC=0.0709; best=6, no-improvement=0/2; SAVED
+Seed 101, epoch 7/50
+  train: batch 250/3728, CE=0.700837, elapsed=39.0s
+  train: batch 500/3728, CE=0.700029, elapsed=76.1s
+  train: batch 750/3728, CE=0.700676, elapsed=115.2s
+  train: batch 1000/3728, CE=0.701136, elapsed=155.0s
+  train: batch 1250/3728, CE=0.701031, elapsed=193.7s
+  train: batch 1500/3728, CE=0.701231, elapsed=235.9s
+  train: batch 1750/3728, CE=0.701285, elapsed=277.9s
+  train: batch 2000/3728, CE=0.701447, elapsed=318.1s
+  train: batch 2250/3728, CE=0.701431, elapsed=356.5s
+  train: batch 2500/3728, CE=0.701263, elapsed=392.6s
+  train: batch 2750/3728, CE=0.701080, elapsed=430.0s
+  train: batch 3000/3728, CE=0.700836, elapsed=468.7s
+  train: batch 3250/3728, CE=0.700802, elapsed=508.4s
+  train: batch 3500/3728, CE=0.700494, elapsed=546.0s
+  train: batch 3728/3728, CE=0.700318, elapsed=583.4s
+  validation: batch 250/1598, CE=0.698535, elapsed=29.7s
+  validation: batch 500/1598, CE=0.698888, elapsed=54.5s
+  validation: batch 750/1598, CE=0.698965, elapsed=80.5s
+  validation: batch 1000/1598, CE=0.698629, elapsed=105.2s
+  validation: batch 1250/1598, CE=0.698777, elapsed=131.9s
+  validation: batch 1500/1598, CE=0.698939, elapsed=156.6s
+  validation: batch 1598/1598, CE=0.698912, elapsed=166.5s
+Seed 101 epoch 7: train CE=0.700318 acc=0.5291; validation CE=0.698912 acc=0.5183 MCC=0.0564; best=6, no-improvement=1/2; SAVED
+Seed 101, epoch 8/50
+  train: batch 250/3728, CE=0.697846, elapsed=41.1s
+  train: batch 500/3728, CE=0.696906, elapsed=80.2s
+  train: batch 750/3728, CE=0.697528, elapsed=119.2s
+  train: batch 1000/3728, CE=0.696932, elapsed=159.9s
+  train: batch 1250/3728, CE=0.696685, elapsed=200.3s
+  train: batch 1500/3728, CE=0.696584, elapsed=239.2s
+  train: batch 1750/3728, CE=0.696488, elapsed=279.0s
+  train: batch 2000/3728, CE=0.696514, elapsed=314.4s
+  train: batch 2250/3728, CE=0.696364, elapsed=350.6s
+  train: batch 2500/3728, CE=0.696320, elapsed=392.3s
+  train: batch 2750/3728, CE=0.696134, elapsed=429.3s
+  train: batch 3000/3728, CE=0.696092, elapsed=468.5s
+  train: batch 3250/3728, CE=0.696077, elapsed=510.6s
+  train: batch 3500/3728, CE=0.696007, elapsed=550.9s
+  train: batch 3728/3728, CE=0.696058, elapsed=586.0s
+  validation: batch 250/1598, CE=0.691165, elapsed=29.9s
+  validation: batch 500/1598, CE=0.691233, elapsed=54.7s
+  validation: batch 750/1598, CE=0.691222, elapsed=79.2s
+  validation: batch 1000/1598, CE=0.691457, elapsed=104.0s
+  validation: batch 1250/1598, CE=0.691478, elapsed=128.4s
+  validation: batch 1500/1598, CE=0.691553, elapsed=153.9s
+  validation: batch 1598/1598, CE=0.691490, elapsed=163.4s
+Seed 101 epoch 8: train CE=0.696058 acc=0.5333; validation CE=0.691490 acc=0.5287 MCC=0.0699; best=6, no-improvement=2/2; SAVED
+Seed 101: COMPLETE | best epoch 6
+Seed 102: train=477059, validation=204455
+Seed 102, epoch 1/50
+  train: batch 250/3728, CE=1.051237, elapsed=37.3s
+  train: batch 500/3728, CE=1.042115, elapsed=76.7s
+  train: batch 750/3728, CE=1.031029, elapsed=118.3s
+  train: batch 1000/3728, CE=1.018963, elapsed=157.7s
+  train: batch 1250/3728, CE=1.009335, elapsed=196.6s
+  train: batch 1500/3728, CE=1.002263, elapsed=236.6s
+  train: batch 1750/3728, CE=0.995748, elapsed=277.8s
+  train: batch 2000/3728, CE=0.989486, elapsed=318.0s
+  train: batch 2250/3728, CE=0.982975, elapsed=358.9s
+  train: batch 2500/3728, CE=0.977167, elapsed=397.4s
+  train: batch 2750/3728, CE=0.971151, elapsed=435.3s
+  train: batch 3000/3728, CE=0.965718, elapsed=474.6s
+  train: batch 3250/3728, CE=0.960377, elapsed=514.0s
+  train: batch 3500/3728, CE=0.954850, elapsed=553.2s
+  train: batch 3728/3728, CE=0.950236, elapsed=590.4s
+  validation: batch 250/1598, CE=0.732766, elapsed=29.6s
+  validation: batch 500/1598, CE=0.734975, elapsed=55.3s
+  validation: batch 750/1598, CE=0.736135, elapsed=80.2s
+  validation: batch 1000/1598, CE=0.735491, elapsed=105.1s
+  validation: batch 1250/1598, CE=0.735171, elapsed=130.4s
+  validation: batch 1500/1598, CE=0.735451, elapsed=155.8s
+  validation: batch 1598/1598, CE=0.735855, elapsed=166.2s
+Seed 102 epoch 1: train CE=0.950236 acc=0.5055; validation CE=0.735855 acc=0.5148 MCC=0.0376; best=1, no-improvement=0/2; SAVED
+Seed 102, epoch 2/50
+  train: batch 250/3728, CE=0.873422, elapsed=42.6s
+  train: batch 500/3728, CE=0.866004, elapsed=78.5s
+  train: batch 750/3728, CE=0.860251, elapsed=116.6s
+  train: batch 1000/3728, CE=0.856175, elapsed=156.7s
+  train: batch 1250/3728, CE=0.851681, elapsed=194.3s
+  train: batch 1500/3728, CE=0.848166, elapsed=224.5s
+  train: batch 1750/3728, CE=0.846134, elapsed=253.7s
+  train: batch 2000/3728, CE=0.843547, elapsed=283.2s
+  train: batch 2250/3728, CE=0.840305, elapsed=312.9s
+  train: batch 2500/3728, CE=0.837846, elapsed=342.4s
+  train: batch 2750/3728, CE=0.835191, elapsed=371.9s
+  train: batch 3000/3728, CE=0.832193, elapsed=401.2s
+  train: batch 3250/3728, CE=0.829174, elapsed=430.6s
+  train: batch 3500/3728, CE=0.826822, elapsed=460.1s
+  train: batch 3728/3728, CE=0.824460, elapsed=486.7s
+  validation: batch 250/1598, CE=0.699446, elapsed=22.8s
+  validation: batch 500/1598, CE=0.700048, elapsed=44.6s
+  validation: batch 750/1598, CE=0.700834, elapsed=69.7s
+  validation: batch 1000/1598, CE=0.700621, elapsed=91.3s
+  validation: batch 1250/1598, CE=0.700338, elapsed=116.8s
+  validation: batch 1500/1598, CE=0.700543, elapsed=142.0s
+  validation: batch 1598/1598, CE=0.700644, elapsed=150.7s
+Seed 102 epoch 2: train CE=0.824460 acc=0.5107; validation CE=0.700644 acc=0.5238 MCC=0.0506; best=2, no-improvement=0/2; SAVED
+Seed 102, epoch 3/50
+  train: batch 250/3728, CE=0.778832, elapsed=29.5s
+  train: batch 500/3728, CE=0.778961, elapsed=59.4s
+  train: batch 750/3728, CE=0.776612, elapsed=89.0s
+  train: batch 1000/3728, CE=0.775356, elapsed=118.9s
+  train: batch 1250/3728, CE=0.774427, elapsed=148.2s
+  train: batch 1500/3728, CE=0.772693, elapsed=178.1s
+  train: batch 1750/3728, CE=0.771610, elapsed=207.9s
+  train: batch 2000/3728, CE=0.770086, elapsed=237.5s
+  train: batch 2250/3728, CE=0.768856, elapsed=267.2s
+  train: batch 2500/3728, CE=0.767092, elapsed=297.4s
+  train: batch 2750/3728, CE=0.765625, elapsed=326.9s
+  train: batch 3000/3728, CE=0.764410, elapsed=356.2s
+  train: batch 3250/3728, CE=0.763060, elapsed=386.7s
+  train: batch 3500/3728, CE=0.761822, elapsed=417.3s
+  train: batch 3728/3728, CE=0.760764, elapsed=445.2s
+  validation: batch 250/1598, CE=0.702023, elapsed=21.8s
+  validation: batch 500/1598, CE=0.703136, elapsed=43.3s
+  validation: batch 750/1598, CE=0.703776, elapsed=72.6s
+  validation: batch 1000/1598, CE=0.703762, elapsed=99.5s
+  validation: batch 1250/1598, CE=0.703630, elapsed=125.8s
+  validation: batch 1500/1598, CE=0.703934, elapsed=151.1s
+  validation: batch 1598/1598, CE=0.704101, elapsed=162.5s
+Seed 102 epoch 3: train CE=0.760764 acc=0.5150; validation CE=0.704101 acc=0.5181 MCC=0.0510; best=2, no-improvement=1/2; SAVED
+Seed 102, epoch 4/50
+  train: batch 250/3728, CE=0.736100, elapsed=29.5s
+  train: batch 500/3728, CE=0.735955, elapsed=59.1s
+  train: batch 750/3728, CE=0.735074, elapsed=88.7s
+  train: batch 1000/3728, CE=0.735686, elapsed=118.4s
+  train: batch 1250/3728, CE=0.735223, elapsed=148.2s
+  train: batch 1500/3728, CE=0.734176, elapsed=178.3s
+  train: batch 1750/3728, CE=0.733507, elapsed=208.3s
+  train: batch 2000/3728, CE=0.732712, elapsed=238.4s
+  train: batch 2250/3728, CE=0.732150, elapsed=268.4s
+  train: batch 2500/3728, CE=0.731664, elapsed=298.4s
+  train: batch 2750/3728, CE=0.730973, elapsed=328.6s
+  train: batch 3000/3728, CE=0.730343, elapsed=357.9s
+  train: batch 3250/3728, CE=0.729776, elapsed=387.5s
+  train: batch 3500/3728, CE=0.729171, elapsed=417.4s
+  train: batch 3728/3728, CE=0.728749, elapsed=444.7s
+  validation: batch 250/1598, CE=0.691585, elapsed=22.0s
+  validation: batch 500/1598, CE=0.692238, elapsed=45.1s
+  validation: batch 750/1598, CE=0.693007, elapsed=66.8s
+  validation: batch 1000/1598, CE=0.692861, elapsed=93.4s
+  validation: batch 1250/1598, CE=0.693021, elapsed=115.4s
+  validation: batch 1500/1598, CE=0.693200, elapsed=140.8s
+  validation: batch 1598/1598, CE=0.693277, elapsed=149.4s
+Seed 102 epoch 4: train CE=0.728749 acc=0.5195; validation CE=0.693277 acc=0.5266 MCC=0.0600; best=4, no-improvement=0/2; SAVED
+Seed 102, epoch 5/50
+  train: batch 250/3728, CE=0.720765, elapsed=29.7s
+  train: batch 500/3728, CE=0.719841, elapsed=59.8s
+  train: batch 750/3728, CE=0.718805, elapsed=89.3s
+  train: batch 1000/3728, CE=0.718133, elapsed=118.6s
+  train: batch 1250/3728, CE=0.718051, elapsed=147.9s
+  train: batch 1500/3728, CE=0.717252, elapsed=177.2s
+  train: batch 1750/3728, CE=0.716843, elapsed=206.6s
+  train: batch 2000/3728, CE=0.716275, elapsed=236.0s
+  train: batch 2250/3728, CE=0.715698, elapsed=265.3s
+  train: batch 2500/3728, CE=0.715201, elapsed=294.5s
+  train: batch 2750/3728, CE=0.714930, elapsed=323.7s
+  train: batch 3000/3728, CE=0.714746, elapsed=353.0s
+  train: batch 3250/3728, CE=0.714559, elapsed=382.1s
+  train: batch 3500/3728, CE=0.714329, elapsed=411.3s
+  train: batch 3728/3728, CE=0.714043, elapsed=437.7s
+  validation: batch 250/1598, CE=0.695941, elapsed=24.7s
+  validation: batch 500/1598, CE=0.696979, elapsed=51.5s
+  validation: batch 750/1598, CE=0.697752, elapsed=74.9s
+  validation: batch 1000/1598, CE=0.697633, elapsed=96.6s
+  validation: batch 1250/1598, CE=0.697591, elapsed=117.9s
+  validation: batch 1500/1598, CE=0.697845, elapsed=139.3s
+  validation: batch 1598/1598, CE=0.698001, elapsed=147.7s
+Seed 102 epoch 5: train CE=0.714043 acc=0.5228; validation CE=0.698001 acc=0.5198 MCC=0.0571; best=4, no-improvement=1/2; SAVED
+Seed 102, epoch 6/50
+  train: batch 250/3728, CE=0.707468, elapsed=29.2s
+  train: batch 500/3728, CE=0.707274, elapsed=58.6s
+  train: batch 750/3728, CE=0.707976, elapsed=88.1s
+  train: batch 1000/3728, CE=0.708068, elapsed=117.6s
+  train: batch 1250/3728, CE=0.707442, elapsed=146.9s
+  train: batch 1500/3728, CE=0.707380, elapsed=175.9s
+  train: batch 1750/3728, CE=0.707007, elapsed=205.3s
+  train: batch 2000/3728, CE=0.707023, elapsed=234.7s
+  train: batch 2250/3728, CE=0.706776, elapsed=264.3s
+  train: batch 2500/3728, CE=0.706270, elapsed=293.8s
+  train: batch 2750/3728, CE=0.705916, elapsed=323.2s
+  train: batch 3000/3728, CE=0.705618, elapsed=352.5s
+  train: batch 3250/3728, CE=0.705480, elapsed=381.7s
+  train: batch 3500/3728, CE=0.705292, elapsed=410.8s
+  train: batch 3728/3728, CE=0.705247, elapsed=438.4s
+  validation: batch 250/1598, CE=0.691804, elapsed=21.5s
+  validation: batch 500/1598, CE=0.691517, elapsed=43.3s
+  validation: batch 750/1598, CE=0.691541, elapsed=64.7s
+  validation: batch 1000/1598, CE=0.691360, elapsed=86.5s
+  validation: batch 1250/1598, CE=0.691402, elapsed=114.7s
+  validation: batch 1500/1598, CE=0.691434, elapsed=142.8s
+  validation: batch 1598/1598, CE=0.691363, elapsed=151.3s
+Seed 102 epoch 6: train CE=0.705247 acc=0.5268; validation CE=0.691363 acc=0.5272 MCC=0.0644; best=6, no-improvement=0/2; SAVED
+Seed 102, epoch 7/50
+  train: batch 250/3728, CE=0.700043, elapsed=29.2s
+  train: batch 500/3728, CE=0.699361, elapsed=58.9s
+  train: batch 750/3728, CE=0.699611, elapsed=88.3s
+  train: batch 1000/3728, CE=0.699714, elapsed=117.6s
+  train: batch 1250/3728, CE=0.700034, elapsed=146.9s
+  train: batch 1500/3728, CE=0.699942, elapsed=176.7s
+  train: batch 1750/3728, CE=0.700027, elapsed=206.0s
+  train: batch 2000/3728, CE=0.699975, elapsed=235.5s
+  train: batch 2250/3728, CE=0.699835, elapsed=264.9s
+  train: batch 2500/3728, CE=0.699833, elapsed=294.4s
+  train: batch 2750/3728, CE=0.699755, elapsed=324.1s
+  train: batch 3000/3728, CE=0.699647, elapsed=353.6s
+  train: batch 3250/3728, CE=0.699481, elapsed=385.0s
+  train: batch 3500/3728, CE=0.699429, elapsed=414.9s
+  train: batch 3728/3728, CE=0.699335, elapsed=441.8s
+  validation: batch 250/1598, CE=0.687534, elapsed=24.4s
+  validation: batch 500/1598, CE=0.687524, elapsed=46.1s
+  validation: batch 750/1598, CE=0.687770, elapsed=74.7s
+  validation: batch 1000/1598, CE=0.687574, elapsed=96.8s
+  validation: batch 1250/1598, CE=0.687744, elapsed=118.6s
+  validation: batch 1500/1598, CE=0.687867, elapsed=142.3s
+  validation: batch 1598/1598, CE=0.687863, elapsed=150.7s
+Seed 102 epoch 7: train CE=0.699335 acc=0.5324; validation CE=0.687863 acc=0.5392 MCC=0.0797; best=7, no-improvement=0/2; SAVED
+Seed 102, epoch 8/50
+  train: batch 250/3728, CE=0.695870, elapsed=30.3s
+  train: batch 500/3728, CE=0.696902, elapsed=60.7s
+  train: batch 750/3728, CE=0.696368, elapsed=90.4s
+  train: batch 1000/3728, CE=0.695317, elapsed=119.9s
+  train: batch 1250/3728, CE=0.695469, elapsed=149.3s
+  train: batch 1500/3728, CE=0.695152, elapsed=178.9s
+  train: batch 1750/3728, CE=0.695029, elapsed=208.8s
+  train: batch 2000/3728, CE=0.695008, elapsed=238.4s
+  train: batch 2250/3728, CE=0.695016, elapsed=268.6s
+  train: batch 2500/3728, CE=0.694982, elapsed=298.4s
+  train: batch 2750/3728, CE=0.694971, elapsed=328.2s
+  train: batch 3000/3728, CE=0.694942, elapsed=357.5s
+  train: batch 3250/3728, CE=0.694908, elapsed=387.0s
+  train: batch 3500/3728, CE=0.694862, elapsed=416.7s
+  train: batch 3728/3728, CE=0.694881, elapsed=444.4s
+  validation: batch 250/1598, CE=0.701626, elapsed=25.1s
+  validation: batch 500/1598, CE=0.700247, elapsed=47.9s
+  validation: batch 750/1598, CE=0.700143, elapsed=71.5s
+  validation: batch 1000/1598, CE=0.699972, elapsed=95.4s
+  validation: batch 1250/1598, CE=0.699993, elapsed=117.9s
+  validation: batch 1500/1598, CE=0.699944, elapsed=140.4s
+  validation: batch 1598/1598, CE=0.699797, elapsed=148.9s
+Seed 102 epoch 8: train CE=0.694881 acc=0.5375; validation CE=0.699797 acc=0.5135 MCC=0.0540; best=7, no-improvement=1/2; SAVED
+Seed 102, epoch 9/50
+  train: batch 250/3728, CE=0.693999, elapsed=29.2s
+  train: batch 500/3728, CE=0.693508, elapsed=58.1s
+  train: batch 750/3728, CE=0.693593, elapsed=86.9s
+  train: batch 1000/3728, CE=0.693189, elapsed=115.7s
+  train: batch 1250/3728, CE=0.692935, elapsed=144.5s
+  train: batch 1500/3728, CE=0.692910, elapsed=173.2s
+  train: batch 1750/3728, CE=0.692870, elapsed=202.1s
+  train: batch 2000/3728, CE=0.692803, elapsed=230.9s
+  train: batch 2250/3728, CE=0.692834, elapsed=259.7s
+  train: batch 2500/3728, CE=0.692861, elapsed=288.5s
+  train: batch 2750/3728, CE=0.692755, elapsed=317.6s
+  train: batch 3000/3728, CE=0.692817, elapsed=346.6s
+  train: batch 3250/3728, CE=0.692742, elapsed=375.7s
+  train: batch 3500/3728, CE=0.692700, elapsed=404.6s
+  train: batch 3728/3728, CE=0.692589, elapsed=430.6s
+  validation: batch 250/1598, CE=0.690754, elapsed=24.1s
+  validation: batch 500/1598, CE=0.689991, elapsed=48.5s
+  validation: batch 750/1598, CE=0.690114, elapsed=69.8s
+  validation: batch 1000/1598, CE=0.689953, elapsed=91.6s
+  validation: batch 1250/1598, CE=0.689958, elapsed=113.0s
+  validation: batch 1500/1598, CE=0.690075, elapsed=134.7s
+  validation: batch 1598/1598, CE=0.690015, elapsed=146.0s
+Seed 102 epoch 9: train CE=0.692589 acc=0.5404; validation CE=0.690015 acc=0.5343 MCC=0.0784; best=7, no-improvement=2/2; SAVED
+Seed 102: COMPLETE | best epoch 7
+Seed 103: train=477059, validation=204455
+Seed 103, epoch 1/50
+  train: batch 250/3728, CE=1.055078, elapsed=29.0s
+  train: batch 500/3728, CE=1.042848, elapsed=58.0s
+  train: batch 750/3728, CE=1.033909, elapsed=87.0s
+  train: batch 1000/3728, CE=1.025781, elapsed=116.0s
+  train: batch 1250/3728, CE=1.018444, elapsed=144.9s
+  train: batch 1500/3728, CE=1.010283, elapsed=173.8s
+  train: batch 1750/3728, CE=1.004281, elapsed=202.6s
+  train: batch 2000/3728, CE=0.996325, elapsed=231.7s
+  train: batch 2250/3728, CE=0.989436, elapsed=260.6s
+  train: batch 2500/3728, CE=0.982639, elapsed=289.9s
+  train: batch 2750/3728, CE=0.976668, elapsed=319.4s
+  train: batch 3000/3728, CE=0.970980, elapsed=348.5s
+  train: batch 3250/3728, CE=0.965140, elapsed=377.6s
+  train: batch 3500/3728, CE=0.959276, elapsed=406.6s
+  train: batch 3728/3728, CE=0.954486, elapsed=432.8s
+  validation: batch 250/1598, CE=0.711117, elapsed=28.3s
+  validation: batch 500/1598, CE=0.710539, elapsed=52.8s
+  validation: batch 750/1598, CE=0.711205, elapsed=74.2s
+  validation: batch 1000/1598, CE=0.710756, elapsed=97.5s
+  validation: batch 1250/1598, CE=0.711145, elapsed=122.4s
+  validation: batch 1500/1598, CE=0.711096, elapsed=143.8s
+  validation: batch 1598/1598, CE=0.711092, elapsed=157.2s
+Seed 103 epoch 1: train CE=0.954486 acc=0.5034; validation CE=0.711092 acc=0.5195 MCC=0.0389; best=1, no-improvement=0/2; SAVED
+Seed 103, epoch 2/50
+  train: batch 250/3728, CE=0.866021, elapsed=29.2s
+  train: batch 500/3728, CE=0.862589, elapsed=58.0s
+  train: batch 750/3728, CE=0.860619, elapsed=87.2s
+  train: batch 1000/3728, CE=0.856593, elapsed=116.5s
+  train: batch 1250/3728, CE=0.854618, elapsed=145.7s
+  train: batch 1500/3728, CE=0.849776, elapsed=174.8s
+  train: batch 1750/3728, CE=0.846155, elapsed=203.6s
+  train: batch 2000/3728, CE=0.843513, elapsed=232.5s
+  train: batch 2250/3728, CE=0.840514, elapsed=261.3s
+  train: batch 2500/3728, CE=0.837872, elapsed=290.1s
+  train: batch 2750/3728, CE=0.835078, elapsed=319.0s
+  train: batch 3000/3728, CE=0.831991, elapsed=348.0s
+  train: batch 3250/3728, CE=0.829497, elapsed=376.9s
+  train: batch 3500/3728, CE=0.826894, elapsed=405.6s
+  train: batch 3728/3728, CE=0.824640, elapsed=431.7s
+  validation: batch 250/1598, CE=0.696055, elapsed=21.0s
+  validation: batch 500/1598, CE=0.695883, elapsed=42.1s
+  validation: batch 750/1598, CE=0.696161, elapsed=68.0s
+  validation: batch 1000/1598, CE=0.695754, elapsed=89.5s
+  validation: batch 1250/1598, CE=0.696007, elapsed=113.6s
+  validation: batch 1500/1598, CE=0.695998, elapsed=135.1s
+  validation: batch 1598/1598, CE=0.696056, elapsed=143.9s
+Seed 103 epoch 2: train CE=0.824640 acc=0.5095; validation CE=0.696056 acc=0.5252 MCC=0.0504; best=2, no-improvement=0/2; SAVED
+Seed 103, epoch 3/50
+  train: batch 250/3728, CE=0.778961, elapsed=28.9s
+  train: batch 500/3728, CE=0.779504, elapsed=57.7s
+  train: batch 750/3728, CE=0.777066, elapsed=86.6s
+  train: batch 1000/3728, CE=0.774772, elapsed=115.6s
+  train: batch 1250/3728, CE=0.773438, elapsed=144.4s
+  train: batch 1500/3728, CE=0.772111, elapsed=173.5s
+  train: batch 1750/3728, CE=0.770282, elapsed=202.5s
+  train: batch 2000/3728, CE=0.768839, elapsed=231.3s
+  train: batch 2250/3728, CE=0.768170, elapsed=260.4s
+  train: batch 2500/3728, CE=0.766799, elapsed=289.4s
+  train: batch 2750/3728, CE=0.764988, elapsed=318.1s
+  train: batch 3000/3728, CE=0.763908, elapsed=346.9s
+  train: batch 3250/3728, CE=0.762698, elapsed=375.9s
+  train: batch 3500/3728, CE=0.761430, elapsed=404.9s
+  train: batch 3728/3728, CE=0.760030, elapsed=431.2s
+  validation: batch 250/1598, CE=0.691754, elapsed=21.4s
+  validation: batch 500/1598, CE=0.691450, elapsed=42.9s
+  validation: batch 750/1598, CE=0.691531, elapsed=65.3s
+  validation: batch 1000/1598, CE=0.691118, elapsed=86.6s
+  validation: batch 1250/1598, CE=0.691280, elapsed=107.8s
+  validation: batch 1500/1598, CE=0.691260, elapsed=133.4s
+  validation: batch 1598/1598, CE=0.691323, elapsed=141.7s
+Seed 103 epoch 3: train CE=0.760030 acc=0.5140; validation CE=0.691323 acc=0.5307 MCC=0.0617; best=3, no-improvement=0/2; SAVED
+Seed 103, epoch 4/50
+  train: batch 250/3728, CE=0.738017, elapsed=28.9s
+  train: batch 500/3728, CE=0.737717, elapsed=58.0s
+  train: batch 750/3728, CE=0.738236, elapsed=87.0s
+  train: batch 1000/3728, CE=0.737557, elapsed=115.9s
+  train: batch 1250/3728, CE=0.736793, elapsed=144.8s
+  train: batch 1500/3728, CE=0.736256, elapsed=173.6s
+  train: batch 1750/3728, CE=0.735360, elapsed=202.4s
+  train: batch 2000/3728, CE=0.734567, elapsed=231.0s
+  train: batch 2250/3728, CE=0.733605, elapsed=259.9s
+  train: batch 2500/3728, CE=0.732659, elapsed=288.8s
+  train: batch 2750/3728, CE=0.732200, elapsed=317.5s
+  train: batch 3000/3728, CE=0.731438, elapsed=346.3s
+  train: batch 3250/3728, CE=0.730626, elapsed=375.2s
+  train: batch 3500/3728, CE=0.730264, elapsed=404.5s
+  train: batch 3728/3728, CE=0.729799, elapsed=431.1s
+  validation: batch 250/1598, CE=0.697737, elapsed=21.3s
+  validation: batch 500/1598, CE=0.697194, elapsed=52.2s
+  validation: batch 750/1598, CE=0.697355, elapsed=73.6s
+  validation: batch 1000/1598, CE=0.697334, elapsed=96.4s
+  validation: batch 1250/1598, CE=0.697331, elapsed=117.8s
+  validation: batch 1500/1598, CE=0.697173, elapsed=139.1s
+  validation: batch 1598/1598, CE=0.697312, elapsed=152.4s
+Seed 103 epoch 4: train CE=0.729799 acc=0.5186; validation CE=0.697312 acc=0.5177 MCC=0.0522; best=3, no-improvement=1/2; SAVED
+Seed 103, epoch 5/50
+  train: batch 250/3728, CE=0.721563, elapsed=28.7s
+  train: batch 500/3728, CE=0.719924, elapsed=57.4s
+  train: batch 750/3728, CE=0.719501, elapsed=86.4s
+  train: batch 1000/3728, CE=0.719096, elapsed=115.2s
+  train: batch 1250/3728, CE=0.718665, elapsed=144.1s
+  train: batch 1500/3728, CE=0.717903, elapsed=172.9s
+  train: batch 1750/3728, CE=0.717443, elapsed=201.8s
+  train: batch 2000/3728, CE=0.717141, elapsed=230.6s
+  train: batch 2250/3728, CE=0.716325, elapsed=259.3s
+  train: batch 2500/3728, CE=0.715959, elapsed=287.9s
+  train: batch 2750/3728, CE=0.715792, elapsed=316.7s
+  train: batch 3000/3728, CE=0.715494, elapsed=345.5s
+  train: batch 3250/3728, CE=0.715165, elapsed=374.1s
+  train: batch 3500/3728, CE=0.714772, elapsed=403.2s
+  train: batch 3728/3728, CE=0.714441, elapsed=429.5s
+  validation: batch 250/1598, CE=0.707282, elapsed=22.8s
+  validation: batch 500/1598, CE=0.706398, elapsed=46.7s
+  validation: batch 750/1598, CE=0.706696, elapsed=68.2s
+  validation: batch 1000/1598, CE=0.706858, elapsed=89.7s
+  validation: batch 1250/1598, CE=0.706849, elapsed=113.4s
+  validation: batch 1500/1598, CE=0.706605, elapsed=135.0s
+  validation: batch 1598/1598, CE=0.706674, elapsed=143.2s
+Seed 103 epoch 5: train CE=0.714441 acc=0.5221; validation CE=0.706674 acc=0.5109 MCC=0.0473; best=3, no-improvement=2/2; SAVED
+Seed 103: COMPLETE | best epoch 3
+Seed 104: train=477059, validation=204455
+Seed 104, epoch 1/50
+  train: batch 250/3728, CE=1.046467, elapsed=29.2s
+  train: batch 500/3728, CE=1.029426, elapsed=58.1s
+  train: batch 750/3728, CE=1.023034, elapsed=87.1s
+  train: batch 1000/3728, CE=1.014850, elapsed=115.9s
+  train: batch 1250/3728, CE=1.007925, elapsed=144.7s
+  train: batch 1500/3728, CE=1.000052, elapsed=173.6s
+  train: batch 1750/3728, CE=0.993933, elapsed=202.4s
+  train: batch 2000/3728, CE=0.986706, elapsed=231.2s
+  train: batch 2250/3728, CE=0.980412, elapsed=260.2s
+  train: batch 2500/3728, CE=0.974781, elapsed=289.0s
+  train: batch 2750/3728, CE=0.969034, elapsed=317.8s
+  train: batch 3000/3728, CE=0.963340, elapsed=346.9s
+  train: batch 3250/3728, CE=0.957527, elapsed=375.6s
+  train: batch 3500/3728, CE=0.952598, elapsed=404.4s
+  train: batch 3728/3728, CE=0.947842, elapsed=430.6s
+  validation: batch 250/1598, CE=0.708227, elapsed=23.2s
+  validation: batch 500/1598, CE=0.709009, elapsed=50.5s
+  validation: batch 750/1598, CE=0.709300, elapsed=76.4s
+  validation: batch 1000/1598, CE=0.709073, elapsed=97.9s
+  validation: batch 1250/1598, CE=0.708915, elapsed=122.3s
+  validation: batch 1500/1598, CE=0.708821, elapsed=144.2s
+  validation: batch 1598/1598, CE=0.708790, elapsed=152.6s
+Seed 104 epoch 1: train CE=0.947842 acc=0.5043; validation CE=0.708790 acc=0.5180 MCC=0.0357; best=1, no-improvement=0/2; SAVED
+Seed 104, epoch 2/50
+  train: batch 250/3728, CE=0.860512, elapsed=28.8s
+  train: batch 500/3728, CE=0.855411, elapsed=57.6s
+  train: batch 750/3728, CE=0.852590, elapsed=86.3s
+  train: batch 1000/3728, CE=0.847783, elapsed=115.1s
+  train: batch 1250/3728, CE=0.844836, elapsed=143.8s
+  train: batch 1500/3728, CE=0.842022, elapsed=172.6s
+  train: batch 1750/3728, CE=0.839495, elapsed=201.4s
+  train: batch 2000/3728, CE=0.836501, elapsed=230.4s
+  train: batch 2250/3728, CE=0.833694, elapsed=260.4s
+  train: batch 2500/3728, CE=0.830578, elapsed=289.4s
+  train: batch 2750/3728, CE=0.827890, elapsed=318.6s
+  train: batch 3000/3728, CE=0.825165, elapsed=347.7s
+  train: batch 3250/3728, CE=0.822917, elapsed=378.5s
+  train: batch 3500/3728, CE=0.820268, elapsed=407.8s
+  train: batch 3728/3728, CE=0.818027, elapsed=434.6s
+  validation: batch 250/1598, CE=0.699110, elapsed=22.1s
+  validation: batch 500/1598, CE=0.699081, elapsed=44.6s
+  validation: batch 750/1598, CE=0.698782, elapsed=69.9s
+  validation: batch 1000/1598, CE=0.698991, elapsed=92.0s
+  validation: batch 1250/1598, CE=0.698800, elapsed=114.7s
+  validation: batch 1500/1598, CE=0.698864, elapsed=138.7s
+  validation: batch 1598/1598, CE=0.698784, elapsed=147.4s
+Seed 104 epoch 2: train CE=0.818027 acc=0.5116; validation CE=0.698784 acc=0.5220 MCC=0.0459; best=2, no-improvement=0/2; SAVED
+Seed 104, epoch 3/50
+  train: batch 250/3728, CE=0.776398, elapsed=29.2s
+  train: batch 500/3728, CE=0.774557, elapsed=58.7s
+  train: batch 750/3728, CE=0.771958, elapsed=89.0s
+  train: batch 1000/3728, CE=0.770065, elapsed=120.1s
+  train: batch 1250/3728, CE=0.768290, elapsed=149.7s
+  train: batch 1500/3728, CE=0.767334, elapsed=179.0s
+  train: batch 1750/3728, CE=0.765996, elapsed=208.7s
+  train: batch 2000/3728, CE=0.765391, elapsed=238.2s
+  train: batch 2250/3728, CE=0.764261, elapsed=267.6s
+  train: batch 2500/3728, CE=0.762876, elapsed=297.2s
+  train: batch 2750/3728, CE=0.761554, elapsed=326.8s
+  train: batch 3000/3728, CE=0.760295, elapsed=356.3s
+  train: batch 3250/3728, CE=0.759182, elapsed=385.7s
+  train: batch 3500/3728, CE=0.757872, elapsed=415.4s
+  train: batch 3728/3728, CE=0.757134, elapsed=442.3s
+  validation: batch 250/1598, CE=0.695161, elapsed=23.8s
+  validation: batch 500/1598, CE=0.694871, elapsed=47.8s
+  validation: batch 750/1598, CE=0.694865, elapsed=73.1s
+  validation: batch 1000/1598, CE=0.694993, elapsed=96.1s
+  validation: batch 1250/1598, CE=0.694584, elapsed=117.8s
+  validation: batch 1500/1598, CE=0.694513, elapsed=139.2s
+  validation: batch 1598/1598, CE=0.694540, elapsed=147.5s
+Seed 104 epoch 3: train CE=0.757134 acc=0.5149; validation CE=0.694540 acc=0.5247 MCC=0.0551; best=3, no-improvement=0/2; SAVED
+Seed 104, epoch 4/50
+  train: batch 250/3728, CE=0.737423, elapsed=29.7s
+  train: batch 500/3728, CE=0.736850, elapsed=58.9s
+  train: batch 750/3728, CE=0.735434, elapsed=88.7s
+  train: batch 1000/3728, CE=0.734121, elapsed=118.9s
+  train: batch 1250/3728, CE=0.733624, elapsed=148.3s
+  train: batch 1500/3728, CE=0.733350, elapsed=177.4s
+  train: batch 1750/3728, CE=0.732451, elapsed=206.8s
+  train: batch 2000/3728, CE=0.731855, elapsed=236.2s
+  train: batch 2250/3728, CE=0.731522, elapsed=265.8s
+  train: batch 2500/3728, CE=0.730855, elapsed=297.2s
+  train: batch 2750/3728, CE=0.730061, elapsed=327.5s
+  train: batch 3000/3728, CE=0.729542, elapsed=357.1s
+  train: batch 3250/3728, CE=0.728610, elapsed=386.6s
+  train: batch 3500/3728, CE=0.728223, elapsed=416.2s
+  train: batch 3728/3728, CE=0.727716, elapsed=443.6s
+  validation: batch 250/1598, CE=0.695563, elapsed=23.2s
+  validation: batch 500/1598, CE=0.694914, elapsed=44.5s
+  validation: batch 750/1598, CE=0.694714, elapsed=67.6s
+  validation: batch 1000/1598, CE=0.694828, elapsed=93.9s
+  validation: batch 1250/1598, CE=0.694455, elapsed=115.8s
+  validation: batch 1500/1598, CE=0.694379, elapsed=138.2s
+  validation: batch 1598/1598, CE=0.694382, elapsed=146.5s
+Seed 104 epoch 4: train CE=0.727716 acc=0.5195; validation CE=0.694382 acc=0.5265 MCC=0.0637; best=4, no-improvement=0/2; SAVED
+Seed 104, epoch 5/50
+  train: batch 250/3728, CE=0.719332, elapsed=29.9s
+  train: batch 500/3728, CE=0.718686, elapsed=59.5s
+  train: batch 750/3728, CE=0.717292, elapsed=89.1s
+  train: batch 1000/3728, CE=0.717520, elapsed=118.6s
+  train: batch 1250/3728, CE=0.717229, elapsed=148.3s
+  train: batch 1500/3728, CE=0.717319, elapsed=177.7s
+  train: batch 1750/3728, CE=0.716746, elapsed=211.0s
+  train: batch 2000/3728, CE=0.716298, elapsed=249.5s
+  train: batch 2250/3728, CE=0.715815, elapsed=293.0s
+  train: batch 2500/3728, CE=0.715461, elapsed=324.3s
+  train: batch 2750/3728, CE=0.714891, elapsed=359.9s
+  train: batch 3000/3728, CE=0.714659, elapsed=400.2s
+  train: batch 3250/3728, CE=0.714401, elapsed=437.3s
+  train: batch 3500/3728, CE=0.714225, elapsed=476.3s
+  train: batch 3728/3728, CE=0.714049, elapsed=508.4s
+  validation: batch 250/1598, CE=0.692703, elapsed=21.5s
+  validation: batch 500/1598, CE=0.692682, elapsed=43.4s
+  validation: batch 750/1598, CE=0.692170, elapsed=65.1s
+  validation: batch 1000/1598, CE=0.692224, elapsed=88.3s
+  validation: batch 1250/1598, CE=0.692133, elapsed=117.4s
+  validation: batch 1500/1598, CE=0.692129, elapsed=138.5s
+  validation: batch 1598/1598, CE=0.692023, elapsed=146.8s
+Seed 104 epoch 5: train CE=0.714049 acc=0.5211; validation CE=0.692023 acc=0.5277 MCC=0.0650; best=5, no-improvement=0/2; SAVED
+Seed 104, epoch 6/50
+  train: batch 250/3728, CE=0.708026, elapsed=29.7s
+  train: batch 500/3728, CE=0.707259, elapsed=58.9s
+  train: batch 750/3728, CE=0.706631, elapsed=88.4s
+  train: batch 1000/3728, CE=0.706179, elapsed=118.4s
+  train: batch 1250/3728, CE=0.706358, elapsed=147.9s
+  train: batch 1500/3728, CE=0.706363, elapsed=177.0s
+  train: batch 1750/3728, CE=0.706666, elapsed=206.4s
+  train: batch 2000/3728, CE=0.706654, elapsed=235.6s
+  train: batch 2250/3728, CE=0.706199, elapsed=265.0s
+  train: batch 2500/3728, CE=0.706342, elapsed=294.4s
+  train: batch 2750/3728, CE=0.706028, elapsed=323.7s
+  train: batch 3000/3728, CE=0.705806, elapsed=352.9s
+  train: batch 3250/3728, CE=0.705720, elapsed=382.6s
+  train: batch 3500/3728, CE=0.705573, elapsed=411.8s
+  train: batch 3728/3728, CE=0.705532, elapsed=438.5s
+  validation: batch 250/1598, CE=0.689593, elapsed=22.6s
+  validation: batch 500/1598, CE=0.689196, elapsed=44.3s
+  validation: batch 750/1598, CE=0.688832, elapsed=67.0s
+  validation: batch 1000/1598, CE=0.688921, elapsed=89.3s
+  validation: batch 1250/1598, CE=0.688772, elapsed=113.2s
+  validation: batch 1500/1598, CE=0.688741, elapsed=138.8s
+  validation: batch 1598/1598, CE=0.688664, elapsed=147.7s
+Seed 104 epoch 6: train CE=0.705532 acc=0.5253; validation CE=0.688664 acc=0.5360 MCC=0.0719; best=6, no-improvement=0/2; SAVED
+Seed 104, epoch 7/50
+  train: batch 250/3728, CE=0.699219, elapsed=29.5s
+  train: batch 500/3728, CE=0.700687, elapsed=58.6s
+  train: batch 750/3728, CE=0.700605, elapsed=88.0s
+  train: batch 1000/3728, CE=0.700481, elapsed=117.2s
+  train: batch 1250/3728, CE=0.700187, elapsed=146.9s
+  train: batch 1500/3728, CE=0.700363, elapsed=176.8s
+  train: batch 1750/3728, CE=0.700266, elapsed=206.5s
+  train: batch 2000/3728, CE=0.700236, elapsed=236.2s
+  train: batch 2250/3728, CE=0.700265, elapsed=265.8s
+  train: batch 2500/3728, CE=0.700150, elapsed=295.4s
+  train: batch 2750/3728, CE=0.700178, elapsed=324.6s
+  train: batch 3000/3728, CE=0.700150, elapsed=354.5s
+  train: batch 3250/3728, CE=0.700008, elapsed=384.0s
+  train: batch 3500/3728, CE=0.699924, elapsed=414.1s
+  train: batch 3728/3728, CE=0.699899, elapsed=441.0s
+  validation: batch 250/1598, CE=0.689561, elapsed=21.8s
+  validation: batch 500/1598, CE=0.689065, elapsed=43.3s
+  validation: batch 750/1598, CE=0.688562, elapsed=64.8s
+  validation: batch 1000/1598, CE=0.688760, elapsed=86.4s
+  validation: batch 1250/1598, CE=0.688516, elapsed=108.7s
+  validation: batch 1500/1598, CE=0.688528, elapsed=131.6s
+  validation: batch 1598/1598, CE=0.688476, elapsed=140.2s
+Seed 104 epoch 7: train CE=0.699899 acc=0.5293; validation CE=0.688476 acc=0.5368 MCC=0.0735; best=7, no-improvement=0/2; SAVED
+Seed 104, epoch 8/50
+  train: batch 250/3728, CE=0.698678, elapsed=28.9s
+  train: batch 500/3728, CE=0.697640, elapsed=57.9s
+  train: batch 750/3728, CE=0.697500, elapsed=87.0s
+  train: batch 1000/3728, CE=0.697333, elapsed=116.4s
+  train: batch 1250/3728, CE=0.697156, elapsed=145.4s
+  train: batch 1500/3728, CE=0.696818, elapsed=174.1s
+  train: batch 1750/3728, CE=0.696875, elapsed=203.3s
+  train: batch 2000/3728, CE=0.696824, elapsed=232.1s
+  train: batch 2250/3728, CE=0.696570, elapsed=260.8s
+  train: batch 2500/3728, CE=0.696388, elapsed=290.5s
+  train: batch 2750/3728, CE=0.696374, elapsed=319.2s
+  train: batch 3000/3728, CE=0.696277, elapsed=347.9s
+  train: batch 3250/3728, CE=0.696321, elapsed=376.9s
+  train: batch 3500/3728, CE=0.696134, elapsed=405.7s
+  train: batch 3728/3728, CE=0.696182, elapsed=432.4s
+  validation: batch 250/1598, CE=0.689798, elapsed=22.0s
+  validation: batch 500/1598, CE=0.689437, elapsed=44.5s
+  validation: batch 750/1598, CE=0.689018, elapsed=77.9s
+  validation: batch 1000/1598, CE=0.689197, elapsed=103.1s
+  validation: batch 1250/1598, CE=0.688977, elapsed=127.6s
+  validation: batch 1500/1598, CE=0.689013, elapsed=151.5s
+  validation: batch 1598/1598, CE=0.688909, elapsed=163.5s
+Seed 104 epoch 8: train CE=0.696182 acc=0.5341; validation CE=0.688909 acc=0.5375 MCC=0.0779; best=7, no-improvement=1/2; SAVED
+Seed 104, epoch 9/50
+  train: batch 250/3728, CE=0.693083, elapsed=28.8s
+  train: batch 500/3728, CE=0.693644, elapsed=57.8s
+  train: batch 750/3728, CE=0.693428, elapsed=87.0s
+  train: batch 1000/3728, CE=0.693637, elapsed=115.9s
+  train: batch 1250/3728, CE=0.693286, elapsed=144.7s
+  train: batch 1500/3728, CE=0.693374, elapsed=173.7s
+  train: batch 1750/3728, CE=0.693251, elapsed=202.4s
+  train: batch 2000/3728, CE=0.693170, elapsed=234.2s
+  train: batch 2250/3728, CE=0.693117, elapsed=271.3s
+  train: batch 2500/3728, CE=0.692986, elapsed=307.1s
+  train: batch 2750/3728, CE=0.693069, elapsed=344.1s
+  train: batch 3000/3728, CE=0.693007, elapsed=382.7s
+  train: batch 3250/3728, CE=0.693063, elapsed=419.6s
+  train: batch 3500/3728, CE=0.693012, elapsed=456.2s
+  train: batch 3728/3728, CE=0.693067, elapsed=489.8s
+  validation: batch 250/1598, CE=0.688846, elapsed=25.1s
+  validation: batch 500/1598, CE=0.688349, elapsed=53.1s
+  validation: batch 750/1598, CE=0.687926, elapsed=80.8s
+  validation: batch 1000/1598, CE=0.687984, elapsed=105.5s
+  validation: batch 1250/1598, CE=0.687797, elapsed=130.4s
+  validation: batch 1500/1598, CE=0.687788, elapsed=155.3s
+  validation: batch 1598/1598, CE=0.687730, elapsed=165.0s
+Seed 104 epoch 9: train CE=0.693067 acc=0.5379; validation CE=0.687730 acc=0.5398 MCC=0.0799; best=9, no-improvement=0/2; SAVED
+Seed 104, epoch 10/50
+  train: batch 250/3728, CE=0.690552, elapsed=38.8s
+  train: batch 500/3728, CE=0.691086, elapsed=76.6s
+  train: batch 750/3728, CE=0.691162, elapsed=112.6s
+  train: batch 1000/3728, CE=0.691134, elapsed=149.9s
+  train: batch 1250/3728, CE=0.691412, elapsed=189.6s
+  train: batch 1500/3728, CE=0.690987, elapsed=227.1s
+  train: batch 1750/3728, CE=0.690862, elapsed=265.6s
+  train: batch 2000/3728, CE=0.690938, elapsed=304.6s
+  train: batch 2250/3728, CE=0.690850, elapsed=343.3s
+  train: batch 2500/3728, CE=0.690513, elapsed=382.0s
+  train: batch 2750/3728, CE=0.690469, elapsed=419.2s
+  train: batch 3000/3728, CE=0.690299, elapsed=455.2s
+  train: batch 3250/3728, CE=0.690369, elapsed=496.8s
+  train: batch 3500/3728, CE=0.690394, elapsed=534.8s
+  train: batch 3728/3728, CE=0.690429, elapsed=562.8s
+  validation: batch 250/1598, CE=0.690124, elapsed=24.6s
+  validation: batch 500/1598, CE=0.689687, elapsed=46.0s
+  validation: batch 750/1598, CE=0.689503, elapsed=68.8s
+  validation: batch 1000/1598, CE=0.689589, elapsed=90.4s
+  validation: batch 1250/1598, CE=0.689283, elapsed=112.1s
+  validation: batch 1500/1598, CE=0.689291, elapsed=133.7s
+  validation: batch 1598/1598, CE=0.689254, elapsed=146.6s
+Seed 104 epoch 10: train CE=0.690429 acc=0.5433; validation CE=0.689254 acc=0.5379 MCC=0.0822; best=9, no-improvement=1/2; SAVED
+Seed 104, epoch 11/50
+  train: batch 250/3728, CE=0.689426, elapsed=29.3s
+  train: batch 500/3728, CE=0.688582, elapsed=58.5s
+  train: batch 750/3728, CE=0.687994, elapsed=88.1s
+  train: batch 1000/3728, CE=0.688484, elapsed=117.3s
+  train: batch 1250/3728, CE=0.688054, elapsed=147.1s
+  train: batch 1500/3728, CE=0.688170, elapsed=176.7s
+  train: batch 1750/3728, CE=0.688416, elapsed=206.4s
+  train: batch 2000/3728, CE=0.688521, elapsed=235.4s
+  train: batch 2250/3728, CE=0.688530, elapsed=264.7s
+  train: batch 2500/3728, CE=0.688528, elapsed=293.8s
+  train: batch 2750/3728, CE=0.688664, elapsed=323.5s
+  train: batch 3000/3728, CE=0.688578, elapsed=352.7s
+  train: batch 3250/3728, CE=0.688535, elapsed=382.5s
+  train: batch 3500/3728, CE=0.688427, elapsed=411.7s
+  train: batch 3728/3728, CE=0.688397, elapsed=438.9s
+  validation: batch 250/1598, CE=0.687891, elapsed=25.4s
+  validation: batch 500/1598, CE=0.687744, elapsed=47.0s
+  validation: batch 750/1598, CE=0.687495, elapsed=72.9s
+  validation: batch 1000/1598, CE=0.687446, elapsed=94.9s
+  validation: batch 1250/1598, CE=0.687284, elapsed=118.1s
+  validation: batch 1500/1598, CE=0.687257, elapsed=139.5s
+  validation: batch 1598/1598, CE=0.687194, elapsed=151.7s
+Seed 104 epoch 11: train CE=0.688397 acc=0.5468; validation CE=0.687194 acc=0.5419 MCC=0.0837; best=11, no-improvement=0/2; SAVED
+Seed 104, epoch 12/50
+  train: batch 250/3728, CE=0.687188, elapsed=29.8s
+  train: batch 500/3728, CE=0.686479, elapsed=58.8s
+  train: batch 750/3728, CE=0.686453, elapsed=88.6s
+  train: batch 1000/3728, CE=0.686697, elapsed=117.7s
+  train: batch 1250/3728, CE=0.686425, elapsed=146.9s
+  train: batch 1500/3728, CE=0.686356, elapsed=175.8s
+  train: batch 1750/3728, CE=0.686346, elapsed=204.8s
+  train: batch 2000/3728, CE=0.686274, elapsed=233.9s
+  train: batch 2250/3728, CE=0.686135, elapsed=263.0s
+  train: batch 2500/3728, CE=0.686337, elapsed=292.2s
+  train: batch 2750/3728, CE=0.686435, elapsed=321.2s
+  train: batch 3000/3728, CE=0.686526, elapsed=350.3s
+  train: batch 3250/3728, CE=0.686588, elapsed=380.0s
+  train: batch 3500/3728, CE=0.686664, elapsed=409.5s
+  train: batch 3728/3728, CE=0.686668, elapsed=436.4s
+  validation: batch 250/1598, CE=0.687977, elapsed=23.3s
+  validation: batch 500/1598, CE=0.687929, elapsed=45.0s
+  validation: batch 750/1598, CE=0.687475, elapsed=71.3s
+  validation: batch 1000/1598, CE=0.687509, elapsed=94.4s
+  validation: batch 1250/1598, CE=0.687408, elapsed=116.4s
+  validation: batch 1500/1598, CE=0.687417, elapsed=139.5s
+  validation: batch 1598/1598, CE=0.687317, elapsed=147.8s
+Seed 104 epoch 12: train CE=0.686668 acc=0.5512; validation CE=0.687317 acc=0.5405 MCC=0.0831; best=11, no-improvement=1/2; SAVED
+Seed 104, epoch 13/50
+  train: batch 250/3728, CE=0.683918, elapsed=29.4s
+  train: batch 500/3728, CE=0.684811, elapsed=59.2s
+  train: batch 750/3728, CE=0.685135, elapsed=88.8s
+  train: batch 1000/3728, CE=0.685076, elapsed=118.2s
+  train: batch 1250/3728, CE=0.684931, elapsed=148.2s
+  train: batch 1500/3728, CE=0.684941, elapsed=177.8s
+  train: batch 1750/3728, CE=0.684840, elapsed=207.3s
+  train: batch 2000/3728, CE=0.684843, elapsed=237.1s
+  train: batch 2250/3728, CE=0.684653, elapsed=266.3s
+  train: batch 2500/3728, CE=0.684791, elapsed=295.6s
+  train: batch 2750/3728, CE=0.684939, elapsed=325.8s
+  train: batch 3000/3728, CE=0.685095, elapsed=355.1s
+  train: batch 3250/3728, CE=0.685192, elapsed=384.4s
+  train: batch 3500/3728, CE=0.685363, elapsed=414.7s
+  train: batch 3728/3728, CE=0.685379, elapsed=442.9s
+  validation: batch 250/1598, CE=0.688943, elapsed=25.6s
+  validation: batch 500/1598, CE=0.689020, elapsed=52.5s
+  validation: batch 750/1598, CE=0.688568, elapsed=73.8s
+  validation: batch 1000/1598, CE=0.688605, elapsed=97.5s
+  validation: batch 1250/1598, CE=0.688588, elapsed=119.0s
+  validation: batch 1500/1598, CE=0.688638, elapsed=140.5s
+  validation: batch 1598/1598, CE=0.688525, elapsed=150.8s
+Seed 104 epoch 13: train CE=0.685379 acc=0.5538; validation CE=0.688525 acc=0.5393 MCC=0.0846; best=11, no-improvement=2/2; SAVED
+Seed 104: COMPLETE | best epoch 11
+Seed 105: train=477059, validation=204455
+Seed 105, epoch 1/50
+  train: batch 250/3728, CE=1.057054, elapsed=30.1s
+  train: batch 500/3728, CE=1.038365, elapsed=59.7s
+  train: batch 750/3728, CE=1.028352, elapsed=89.5s
+  train: batch 1000/3728, CE=1.020930, elapsed=119.6s
+  train: batch 1250/3728, CE=1.011334, elapsed=149.3s
+  train: batch 1500/3728, CE=1.004570, elapsed=179.2s
+  train: batch 1750/3728, CE=0.996828, elapsed=208.3s
+  train: batch 2000/3728, CE=0.989605, elapsed=238.1s
+  train: batch 2250/3728, CE=0.984501, elapsed=267.4s
+  train: batch 2500/3728, CE=0.978209, elapsed=297.0s
+  train: batch 2750/3728, CE=0.971869, elapsed=326.3s
+  train: batch 3000/3728, CE=0.966197, elapsed=355.7s
+  train: batch 3250/3728, CE=0.960751, elapsed=385.1s
+  train: batch 3500/3728, CE=0.955959, elapsed=414.2s
+  train: batch 3728/3728, CE=0.950801, elapsed=440.6s
+  validation: batch 250/1598, CE=0.713305, elapsed=25.5s
+  validation: batch 500/1598, CE=0.712295, elapsed=53.7s
+  validation: batch 750/1598, CE=0.712651, elapsed=76.2s
+  validation: batch 1000/1598, CE=0.712987, elapsed=97.6s
+  validation: batch 1250/1598, CE=0.711834, elapsed=118.9s
+  validation: batch 1500/1598, CE=0.711363, elapsed=141.9s
+  validation: batch 1598/1598, CE=0.711380, elapsed=151.5s
+Seed 105 epoch 1: train CE=0.950801 acc=0.5051; validation CE=0.711380 acc=0.5202 MCC=0.0407; best=1, no-improvement=0/2; SAVED
+Seed 105, epoch 2/50
+  train: batch 250/3728, CE=0.863130, elapsed=29.2s
+  train: batch 500/3728, CE=0.860412, elapsed=58.5s
+  train: batch 750/3728, CE=0.855870, elapsed=88.3s
+  train: batch 1000/3728, CE=0.852078, elapsed=118.2s
+  train: batch 1250/3728, CE=0.849872, elapsed=147.6s
+  train: batch 1500/3728, CE=0.847642, elapsed=177.0s
+  train: batch 1750/3728, CE=0.844631, elapsed=206.7s
+  train: batch 2000/3728, CE=0.841798, elapsed=236.0s
+  train: batch 2250/3728, CE=0.838372, elapsed=265.4s
+  train: batch 2500/3728, CE=0.835098, elapsed=294.9s
+  train: batch 2750/3728, CE=0.832426, elapsed=324.7s
+  train: batch 3000/3728, CE=0.829917, elapsed=354.4s
+  train: batch 3250/3728, CE=0.827232, elapsed=383.8s
+  train: batch 3500/3728, CE=0.824851, elapsed=413.1s
+  train: batch 3728/3728, CE=0.822805, elapsed=439.7s
+  validation: batch 250/1598, CE=0.696785, elapsed=23.2s
+  validation: batch 500/1598, CE=0.696529, elapsed=44.8s
+  validation: batch 750/1598, CE=0.696733, elapsed=68.8s
+  validation: batch 1000/1598, CE=0.696814, elapsed=91.2s
+  validation: batch 1250/1598, CE=0.696270, elapsed=118.5s
+  validation: batch 1500/1598, CE=0.695966, elapsed=145.0s
+  validation: batch 1598/1598, CE=0.696012, elapsed=155.1s
+Seed 105 epoch 2: train CE=0.822805 acc=0.5103; validation CE=0.696012 acc=0.5280 MCC=0.0563; best=2, no-improvement=0/2; SAVED
+Seed 105, epoch 3/50
+  train: batch 250/3728, CE=0.781936, elapsed=29.2s
+  train: batch 500/3728, CE=0.779660, elapsed=58.3s
+  train: batch 750/3728, CE=0.778847, elapsed=87.7s
+  train: batch 1000/3728, CE=0.776896, elapsed=117.7s
+  train: batch 1250/3728, CE=0.773892, elapsed=147.0s
+  train: batch 1500/3728, CE=0.771973, elapsed=176.7s
+  train: batch 1750/3728, CE=0.770709, elapsed=206.2s
+  train: batch 2000/3728, CE=0.769029, elapsed=236.1s
+  train: batch 2250/3728, CE=0.767348, elapsed=265.3s
+  train: batch 2500/3728, CE=0.765844, elapsed=294.9s
+  train: batch 2750/3728, CE=0.764346, elapsed=324.6s
+  train: batch 3000/3728, CE=0.763265, elapsed=354.4s
+  train: batch 3250/3728, CE=0.761996, elapsed=383.7s
+  train: batch 3500/3728, CE=0.760651, elapsed=413.0s
+  train: batch 3728/3728, CE=0.759684, elapsed=439.8s
+  validation: batch 250/1598, CE=0.694104, elapsed=25.9s
+  validation: batch 500/1598, CE=0.694152, elapsed=48.8s
+  validation: batch 750/1598, CE=0.694621, elapsed=72.2s
+  validation: batch 1000/1598, CE=0.694795, elapsed=93.6s
+  validation: batch 1250/1598, CE=0.694496, elapsed=116.8s
+  validation: batch 1500/1598, CE=0.694323, elapsed=140.9s
+  validation: batch 1598/1598, CE=0.694382, elapsed=149.1s
+Seed 105 epoch 3: train CE=0.759684 acc=0.5142; validation CE=0.694382 acc=0.5235 MCC=0.0493; best=3, no-improvement=0/2; SAVED
+Seed 105, epoch 4/50
+  train: batch 250/3728, CE=0.736917, elapsed=29.3s
+  train: batch 500/3728, CE=0.735189, elapsed=58.5s
+  train: batch 750/3728, CE=0.735511, elapsed=88.6s
+  train: batch 1000/3728, CE=0.734914, elapsed=118.1s
+  train: batch 1250/3728, CE=0.734898, elapsed=147.4s
+  train: batch 1500/3728, CE=0.734014, elapsed=176.7s
+  train: batch 1750/3728, CE=0.733502, elapsed=205.8s
+  train: batch 2000/3728, CE=0.733046, elapsed=235.0s
+  train: batch 2250/3728, CE=0.732281, elapsed=265.5s
+  train: batch 2500/3728, CE=0.732005, elapsed=294.7s
+  train: batch 2750/3728, CE=0.731743, elapsed=324.3s
+  train: batch 3000/3728, CE=0.731198, elapsed=353.5s
+  train: batch 3250/3728, CE=0.730782, elapsed=382.8s
+  train: batch 3500/3728, CE=0.730048, elapsed=412.1s
+  train: batch 3728/3728, CE=0.729534, elapsed=438.7s
+  validation: batch 250/1598, CE=0.698368, elapsed=23.8s
+  validation: batch 500/1598, CE=0.699261, elapsed=49.2s
+  validation: batch 750/1598, CE=0.698367, elapsed=71.2s
+  validation: batch 1000/1598, CE=0.698807, elapsed=92.6s
+  validation: batch 1250/1598, CE=0.698702, elapsed=114.1s
+  validation: batch 1500/1598, CE=0.698762, elapsed=135.9s
+  validation: batch 1598/1598, CE=0.698777, elapsed=144.2s
+Seed 105 epoch 4: train CE=0.729534 acc=0.5169; validation CE=0.698777 acc=0.5171 MCC=0.0518; best=3, no-improvement=1/2; SAVED
+Seed 105, epoch 5/50
+  train: batch 250/3728, CE=0.716832, elapsed=29.3s
+  train: batch 500/3728, CE=0.716532, elapsed=58.3s
+  train: batch 750/3728, CE=0.716575, elapsed=87.5s
+  train: batch 1000/3728, CE=0.717199, elapsed=116.7s
+  train: batch 1250/3728, CE=0.716964, elapsed=146.0s
+  train: batch 1500/3728, CE=0.716488, elapsed=175.9s
+  train: batch 1750/3728, CE=0.715909, elapsed=205.1s
+  train: batch 2000/3728, CE=0.716133, elapsed=234.8s
+  train: batch 2250/3728, CE=0.715712, elapsed=264.3s
+  train: batch 2500/3728, CE=0.715485, elapsed=293.7s
+  train: batch 2750/3728, CE=0.715178, elapsed=322.8s
+  train: batch 3000/3728, CE=0.715001, elapsed=351.9s
+  train: batch 3250/3728, CE=0.714884, elapsed=380.8s
+  train: batch 3500/3728, CE=0.714608, elapsed=410.0s
+  train: batch 3728/3728, CE=0.714381, elapsed=436.1s
+  validation: batch 250/1598, CE=0.697539, elapsed=22.3s
+  validation: batch 500/1598, CE=0.697280, elapsed=43.9s
+  validation: batch 750/1598, CE=0.698166, elapsed=65.5s
+  validation: batch 1000/1598, CE=0.697992, elapsed=86.6s
+  validation: batch 1250/1598, CE=0.697557, elapsed=107.7s
+  validation: batch 1500/1598, CE=0.697277, elapsed=129.4s
+  validation: batch 1598/1598, CE=0.697404, elapsed=139.7s
+Seed 105 epoch 5: train CE=0.714381 acc=0.5211; validation CE=0.697404 acc=0.5192 MCC=0.0558; best=3, no-improvement=2/2; SAVED
+Seed 105: COMPLETE | best epoch 3
+TRAIN: 5/5 members complete. Results: D:\香港学习相关文件\final-project\results\i20r20_main_v1
+These are separate validation splits; do not average their validation predictions.

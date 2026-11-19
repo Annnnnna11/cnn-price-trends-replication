@@ -1,0 +1,11 @@
+* -text
+*.md text eol=lf
+*.txt text eol=lf
+*.yml text eol=lf
+*.yaml text eol=lf
+*.py -text
+*.json -text
+*.csv -text
+*.log -text
+*.png binary
+*.npz binary

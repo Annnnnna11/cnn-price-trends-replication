@@ -1,0 +1,81 @@
+{
+  "code_hashes": {
+    "run.py": "d11c2d2e19deccde374d7b1829c14f11e382b22edd8830eccebedff3d19d89d8",
+    "common.py": "d6b66b7d1c510bdddd236baabf6966f741a692fb850ff31eb376d0cf59845d67",
+    "models.py": "79678af0f081af30612a26b0fd659acc73ee1223ef9f78074ffe6f0f4601e532",
+    "training_engine.py": "58bc3c9843486c97970f7e7ac73c804f243d527e07f790446adc66c5bec8b580",
+    "cnn20.py": "1e2844f117f2dec51532768959b75ed6b54ded2f8ba627f873c71d0bba21559d",
+    "study_plan.json": "bc45a4b67ec55d2312fffbbb28fcf7bd2c03be1f0029a2a1897c6e910270cabd"
+  },
+  "gpu": "NVIDIA GeForce RTX 5060 Laptop GPU",
+  "baseline_output_max_difference": 0.0,
+  "checks": [
+    {
+      "depth": 2,
+      "channels": [
+        64,
+        128
+      ],
+      "flattened_features": 38400,
+      "parameters": 201218,
+      "block_shapes": [
+        {
+          "channels": 64,
+          "height_before_pool": 20,
+          "height_after_pool": 10,
+          "width": 60
+        },
+        {
+          "channels": 128,
+          "height_before_pool": 10,
+          "height_after_pool": 5,
+          "width": 60
+        }
+      ],
+      "batch_size": 128,
+      "seconds": 2.102863600011915,
+      "peak_cuda_allocated_mib": 398.6953125
+    },
+    {
+      "depth": 4,
+      "channels": [
+        64,
+        128,
+        256,
+        512
+      ],
+      "flattened_features": 61440,
+      "parameters": 2707202,
+      "block_shapes": [
+        {
+          "channels": 64,
+          "height_before_pool": 20,
+          "height_after_pool": 10,
+          "width": 60
+        },
+        {
+          "channels": 128,
+          "height_before_pool": 10,
+          "height_after_pool": 5,
+          "width": 60
+        },
+        {
+          "channels": 256,
+          "height_before_pool": 5,
+          "height_after_pool": 3,
+          "width": 60
+        },
+        {
+          "channels": 512,
+          "height_before_pool": 3,
+          "height_after_pool": 2,
+          "width": 60
+        }
+      ],
+      "batch_size": 128,
+      "seconds": 0.302384600014193,
+      "peak_cuda_allocated_mib": 951.96630859375
+    }
+  ],
+  "purpose": "Synthetic compatibility test only; weights discarded, no dataset/model files changed"
+}

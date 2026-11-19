@@ -1,0 +1,18 @@
+{
+  "baseline_dir": "D:\\香港学习相关文件\\final-project\\results\\i20r20_main_v1",
+  "data_dir": "D:\\香港学习相关文件\\final-project\\img_data\\monthly_20d",
+  "code_hashes": {
+    "run.py": "d11c2d2e19deccde374d7b1829c14f11e382b22edd8830eccebedff3d19d89d8",
+    "common.py": "d6b66b7d1c510bdddd236baabf6966f741a692fb850ff31eb376d0cf59845d67",
+    "models.py": "79678af0f081af30612a26b0fd659acc73ee1223ef9f78074ffe6f0f4601e532",
+    "training_engine.py": "58bc3c9843486c97970f7e7ac73c804f243d527e07f790446adc66c5bec8b580",
+    "cnn20.py": "1e2844f117f2dec51532768959b75ed6b54ded2f8ba627f873c71d0bba21559d",
+    "study_plan.json": "bc45a4b67ec55d2312fffbbb28fcf7bd2c03be1f0029a2a1897c6e910270cabd"
+  },
+  "baseline_manifest_sha256": "13ecc95979ade0ec7b04a84428a9cda92cca323aaa252b196c378587790e1506",
+  "baseline_run_id": "8e2acdd728afe87f6f0bd1d6b1d85c1181d99202efc19d1cff4734f616667293",
+  "variants": {
+    "2": "a4bb2a480265ee6361dd73ac51dcbbf790fa20ca54c5e7c075d05d82069150ce",
+    "4": "a21b2beff38d175eaf1dee33e541e95fcdedf1ca14ba1eae082009f81357451e"
+  }
+}

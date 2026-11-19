@@ -1,0 +1,35 @@
+{
+  "checked_on": "2026-11-18",
+  "python_311_syntax": "PASS",
+  "original_training_and_evaluation_packages": "UNCHANGED",
+  "synthetic_tests": {
+    "completion_and_depth_gates": "PASS",
+    "paired_test_metadata": "PASS",
+    "checkpoint_and_prediction_hash_guards": "PASS",
+    "baseline_cache_reuse": "PASS",
+    "freeze_resume": "PASS",
+    "three_depth_analysis_and_plots": "PASS",
+    "paired_seed_and_financial_calendar_comparison": "PASS",
+    "deterministic_gradcam_case_selection": "PASS",
+    "handoff_bundle": "PASS"
+  },
+  "limits": [
+    "Arrow I/O was mocked with pickle for local integration tests.",
+    "No actual Torch/CUDA inference, checkpoint load or Grad-CAM attribution was executed on this Mac.",
+    "The Windows all command must pass built-in real-checkpoint forward, target-layer, gradient-math, factory-compatibility and model-state checks before full inference."
+  ],
+  "source_sha256": {
+    "cnn20.py": "1e2844f117f2dec51532768959b75ed6b54ded2f8ba627f873c71d0bba21559d",
+    "common.py": "d6b66b7d1c510bdddd236baabf6966f741a692fb850ff31eb376d0cf59845d67",
+    "comparison.py": "4163a87932b9cddedf5de4c60d9673b205f955bbbb49b8afc3efb19dcfe8b91d",
+    "engine.py": "b61a928e68c8c537eb68ecea63f17e2c23128b89c303f08179c80a591fe2c161",
+    "evaluation_core.py": "33661edd44d664e292c12bbf437e8c64499bc701a582ce37845eb0a3287b0f76",
+    "gradcam.py": "62704e1a7226ced3e220de9af7dc9a5503a6642d0bdfe4731ef96dbb050d227e",
+    "guards.py": "6386784e61fd49b689eb8acf201c8061a38740908bad423c94f497c133b16990",
+    "inherited_hashes.json": "a3ee032659255bfca5691894430ebe5517ca3b0480c721ef36de58f6149be602",
+    "models.py": "79678af0f081af30612a26b0fd659acc73ee1223ef9f78074ffe6f0f4601e532",
+    "paper_reference.json": "06d2f6a47c37bb57c6952eb15e6a07c24430fa26ad7b3ab004092c258a2fe424",
+    "run.py": "9451ae2c786506f7e30bf2473f61b654732b81c1bda726a63655ec3e5e507adf",
+    "study_plan.json": "bc45a4b67ec55d2312fffbbb28fcf7bd2c03be1f0029a2a1897c6e910270cabd"
+  }
+}

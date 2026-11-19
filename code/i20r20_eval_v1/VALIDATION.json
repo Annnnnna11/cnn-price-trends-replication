@@ -1,0 +1,33 @@
+{
+  "version": "i20r20_eval_v1",
+  "baseline_run_id": "8e2acdd728afe87f6f0bd1d6b1d85c1181d99202efc19d1cff4734f616667293",
+  "checks_passed": [
+    "Python syntax compilation; CNN byte identity with the trained model",
+    "Classification CE/Accuracy/MCC/AUC/Brier, exact 0.5 ties and one-class edge case",
+    "No future-return availability filter before prediction eligibility",
+    "Distinct Ret_20d classification and Ret_month monthly portfolio masks",
+    "EW/VW deciles and unscaled High-minus-Low spread",
+    "Future-return missingness audit, empty/tied decile omissions, monthly-frequency guard",
+    "Arithmetic annualization, ddof=1 monthly volatility, zero-standard-deviation guard",
+    "Internal missing months are not imputed as zero",
+    "Real saved baseline/checkpoint fingerprints; idempotent freezing; code-change rejection",
+    "Synthetic 20-year analysis control flow with mocked Arrow reader, both reporting periods and plots",
+    "Paper table 2/IA3 I20/R20 reference mapping and descriptive-comparison CSV generation"
+  ],
+  "not_executed_locally": [
+    "Actual Feather reading/writing by the new pipeline (local test reader was mocked)",
+    "New CUDA prediction loop, loading checkpoints into Torch, or any real test-set scoring",
+    "New depth-2/depth-4 training or Grad-CAM generation"
+  ],
+  "source_file_sha256": {
+    "i20r20_eval_v1/README_zh.md": "44d35c78aa11bedf038834dc2df4a622f48a4ce36ff7b08a09b2ea8b8957e682",
+    "i20r20_eval_v1/cnn20.py": "1e2844f117f2dec51532768959b75ed6b54ded2f8ba627f873c71d0bba21559d",
+    "i20r20_eval_v1/evaluation_core.py": "33661edd44d664e292c12bbf437e8c64499bc701a582ce37845eb0a3287b0f76",
+    "i20r20_eval_v1/paper_reference.json": "06d2f6a47c37bb57c6952eb15e6a07c24430fa26ad7b3ab004092c258a2fe424",
+    "i20r20_eval_v1/pipeline.py": "c955ef2a3f17d07da1472e96ea18b835886abaea22c9dbcb1c0c2c04fbc2648f",
+    "i20r20_eval_v1/study_plan.json": "bc45a4b67ec55d2312fffbbb28fcf7bd2c03be1f0029a2a1897c6e910270cabd",
+    "i20r20_eval_v1/tests/check_analysis_flow.py": "0681a33b5b1475121366ffcf5b43f3d4995e0928dea01394526168e941d436a2",
+    "i20r20_eval_v1/tests/check_core.py": "4e7f2ae61449afacff789b59637a1492b1fb585052f8919c8f921e60c6e8a7ba",
+    "i20r20_eval_v1/tests/check_freeze.py": "0472d29f41407348a0c7dbe05bf8391abc76c186f4cd57d645cc39c285229090"
+  }
+}

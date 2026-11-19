@@ -1,0 +1,280 @@
+{
+  "files": [
+    {
+      "name": "20d_month_has_vb_[20]_ma_1993_images.dat",
+      "bytes": 328872960,
+      "sha256": "1318dc506f551d8b793f406a9395603668cfa54de9654226b45a91a059723b6e"
+    },
+    {
+      "name": "20d_month_has_vb_[20]_ma_1993_labels_w_delay.feather",
+      "bytes": 4148914,
+      "sha256": "8dc23c3e7885495953917e8bb3497ee7f43e4f99e99a8b87532ed2a0723f0da3"
+    },
+    {
+      "name": "20d_month_has_vb_[20]_ma_1994_images.dat",
+      "bytes": 363840000,
+      "sha256": "8be8d2af0e4e943350d09c495b46f1a0dd12956d6f581ef5387e590f17b734f4"
+    },
+    {
+      "name": "20d_month_has_vb_[20]_ma_1994_labels_w_delay.feather",
+      "bytes": 4591394,
+      "sha256": "035045603c69a1d02e6528c426a686cdf5c10193dce0b42a5db0e2d063709ba6"
+    },
+    {
+      "name": "20d_month_has_vb_[20]_ma_1995_images.dat",
+      "bytes": 375194880,
+      "sha256": "f95cf92a1e49edf80cbd51d14d2ad082f430762bd2b2425969107f934c2dbc41"
+    },
+    {
+      "name": "20d_month_has_vb_[20]_ma_1995_labels_w_delay.feather",
+      "bytes": 4737858,
+      "sha256": "ea946d3f59487c07a4bb84d7d8e212afc9de0e56a3c3ac0cc16f4bc834b3117b"
+    },
+    {
+      "name": "20d_month_has_vb_[20]_ma_1996_images.dat",
+      "bytes": 395420160,
+      "sha256": "39d7ad577f33f3e9b63aa638cfa2330b6b09dd9352a5e72eb6d1f2dce198b832"
+    },
+    {
+      "name": "20d_month_has_vb_[20]_ma_1996_labels_w_delay.feather",
+      "bytes": 4998066,
+      "sha256": "358f2b1e34bf348d5cf942c9dbb849e8b83502b5706424d42c81c30d2ea13a48"
+    },
+    {
+      "name": "20d_month_has_vb_[20]_ma_1997_images.dat",
+      "bytes": 412074240,
+      "sha256": "74f74b17c7943b5e8536e5484a1862a5be3fdcc6fad007119122c157de32beb5"
+    },
+    {
+      "name": "20d_month_has_vb_[20]_ma_1997_labels_w_delay.feather",
+      "bytes": 5214498,
+      "sha256": "5908b1f1d7580954d8cb73d4811e3f51e3e6da2d9f4dc146e1d971fd022803e7"
+    },
+    {
+      "name": "20d_month_has_vb_[20]_ma_1998_images.dat",
+      "bytes": 407811840,
+      "sha256": "a51cd0eebf454729e513018acf9d9126a5b859ef071a0b699965aa8b14fb9fbd"
+    },
+    {
+      "name": "20d_month_has_vb_[20]_ma_1998_labels_w_delay.feather",
+      "bytes": 5162050,
+      "sha256": "73ad4c6d85cc6790e6585a50e4d7c3d6cca1f176fdb0cbfdffc47d35bce7e5ec"
+    },
+    {
+      "name": "20d_month_has_vb_[20]_ma_1999_images.dat",
+      "bytes": 385090560,
+      "sha256": "57d3f529c10b8f954768aa2478f61a7517964eed776ade07b6cb4717d65aee7c"
+    },
+    {
+      "name": "20d_month_has_vb_[20]_ma_1999_labels_w_delay.feather",
+      "bytes": 4875858,
+      "sha256": "8e698fc1ccc3b5cb58d51621fff86fa2055a3f71735b502527534597ad244dfc"
+    },
+    {
+      "name": "20d_month_has_vb_[20]_ma_2000_images.dat",
+      "bytes": 376888320,
+      "sha256": "d5493e8c1258c7116569e9147109c16a55073f63b9dce14e7e849db898ef86c0"
+    },
+    {
+      "name": "20d_month_has_vb_[20]_ma_2000_labels_w_delay.feather",
+      "bytes": 4771602,
+      "sha256": "b5ffb7ac2426c8a599f715fd6f258d72b3b3f9bb17d4fa9f6419895c1954798b"
+    },
+    {
+      "name": "20d_month_has_vb_[20]_ma_2001_images.dat",
+      "bytes": 353222400,
+      "sha256": "6a87920c048fbc45456d4db4665dd636a77bfae181826cc596b56e154209550c"
+    },
+    {
+      "name": "20d_month_has_vb_[20]_ma_2001_labels_w_delay.feather",
+      "bytes": 4471890,
+      "sha256": "36b39fe5afb188150202823089675c18a95f04b3abb06d4b3e5383fc9f966ceb"
+    },
+    {
+      "name": "20d_month_has_vb_[20]_ma_2002_images.dat",
+      "bytes": 329199360,
+      "sha256": "c452c4234aabd6b10ed6c49d0f740ac7cc67d91d8380e75966190adf6511f170"
+    },
+    {
+      "name": "20d_month_has_vb_[20]_ma_2002_labels_w_delay.feather",
+      "bytes": 4169322,
+      "sha256": "0bbc6f1d73655c0c6985e58c60b58c24eaa53ae468bbfa8148c0b648c14b9fb3"
+    },
+    {
+      "name": "20d_month_has_vb_[20]_ma_2003_images.dat",
+      "bytes": 310632960,
+      "sha256": "b82c253b5d201e8b29b6809603d88d5852a518805a050125680f09d1829d3f3a"
+    },
+    {
+      "name": "20d_month_has_vb_[20]_ma_2003_labels_w_delay.feather",
+      "bytes": 3935394,
+      "sha256": "9544222a85a2794b58a8b7e064152aafb06f3089ffc837aa6b6e351ac73cd592"
+    },
+    {
+      "name": "20d_month_has_vb_[20]_ma_2004_images.dat",
+      "bytes": 305326080,
+      "sha256": "3b1c6e7a250b00cffca284d56e6002e9a3cabe001fc8bfd1d7021b1a1e91a7bd"
+    },
+    {
+      "name": "20d_month_has_vb_[20]_ma_2004_labels_w_delay.feather",
+      "bytes": 3868690,
+      "sha256": "e26f1a614982b42e8d49ca1df4fa42f39d3d89cfb43f9c91fccbf093a1021c39"
+    },
+    {
+      "name": "20d_month_has_vb_[20]_ma_2005_images.dat",
+      "bytes": 306750720,
+      "sha256": "06d92b704fe78bfc02b998772f8976545e6426161a944b80f95e8999593a7d3b"
+    },
+    {
+      "name": "20d_month_has_vb_[20]_ma_2005_labels_w_delay.feather",
+      "bytes": 3886818,
+      "sha256": "e042c09ae80ccef4af96101825535b8793217cdff0962a7e185252ce165ba12b"
+    },
+    {
+      "name": "20d_month_has_vb_[20]_ma_2006_images.dat",
+      "bytes": 307825920,
+      "sha256": "143a3c269461a8fe7756e3e4f9be8b5aaaac64987d4d655c068493388eab4d0d"
+    },
+    {
+      "name": "20d_month_has_vb_[20]_ma_2006_labels_w_delay.feather",
+      "bytes": 3900162,
+      "sha256": "3e0ec5df3974b290cbcadcb398df3d0caf0665e364cdb0a4958b5056756535c9"
+    },
+    {
+      "name": "20d_month_has_vb_[20]_ma_2007_images.dat",
+      "bytes": 311577600,
+      "sha256": "c6881e60bf535cb270672043c8f6a38089e6306d665d820e55c1f2b254b40563"
+    },
+    {
+      "name": "20d_month_has_vb_[20]_ma_2007_labels_w_delay.feather",
+      "bytes": 3946298,
+      "sha256": "2b99cd4e48513af742d76cdd21adc8f7cdda819bea6a08086f3f4d49eb85c8ac"
+    },
+    {
+      "name": "20d_month_has_vb_[20]_ma_2008_images.dat",
+      "bytes": 300234240,
+      "sha256": "8d938aaa2e0c2fa99bdf8b99470c751967997f8ed8952b886e4d9a3aa678f79d"
+    },
+    {
+      "name": "20d_month_has_vb_[20]_ma_2008_labels_w_delay.feather",
+      "bytes": 3801466,
+      "sha256": "7f96941ff35eddd269b0ea3ff62153fd799fce39eb558652e9a33b6e2291f92e"
+    },
+    {
+      "name": "20d_month_has_vb_[20]_ma_2009_images.dat",
+      "bytes": 269049600,
+      "sha256": "3ea9ebcb5e6fc7c6c539ab568ae1e6c3848d300e376d0b31b72330f95a9f8729"
+    },
+    {
+      "name": "20d_month_has_vb_[20]_ma_2009_labels_w_delay.feather",
+      "bytes": 3410482,
+      "sha256": "8b08fd6b399a39e59aa580d6fc03a5d4350b433ff7ad7e9cae2bdd50a4c00915"
+    },
+    {
+      "name": "20d_month_has_vb_[20]_ma_2010_images.dat",
+      "bytes": 261546240,
+      "sha256": "eaec1da484570c4e97c27867355a18cd92e0d60b6fa118ee0ca6c24f6c8237e2"
+    },
+    {
+      "name": "20d_month_has_vb_[20]_ma_2010_labels_w_delay.feather",
+      "bytes": 3315306,
+      "sha256": "86e374ca8ea65f671785b2216bc2597b425b44d5c8879d8c9caf278d57ab4060"
+    },
+    {
+      "name": "20d_month_has_vb_[20]_ma_2011_images.dat",
+      "bytes": 258528000,
+      "sha256": "2eb80e24a05f45493a821fb2bb15468a5247bc220ed05c272bd0deaa6c59ccd9"
+    },
+    {
+      "name": "20d_month_has_vb_[20]_ma_2011_labels_w_delay.feather",
+      "bytes": 3276834,
+      "sha256": "7d0656b766ebcd0f2881e2556a031dca8ab35314f0f7bbba974f2fd6f2a575d3"
+    },
+    {
+      "name": "20d_month_has_vb_[20]_ma_2012_images.dat",
+      "bytes": 254400000,
+      "sha256": "7771502327cb008e5601e0b3823f6e6fcc5c775b29c79f1e78d5a32d734d7a8d"
+    },
+    {
+      "name": "20d_month_has_vb_[20]_ma_2012_labels_w_delay.feather",
+      "bytes": 3224058,
+      "sha256": "b4bfd87fe85a6e9f2dc357ab3edc86dc9c8299e1c0ac4fc6a463cc2f3c993320"
+    },
+    {
+      "name": "20d_month_has_vb_[20]_ma_2013_images.dat",
+      "bytes": 251466240,
+      "sha256": "bf991104ca5cc94dc4ab231bb544dc5671613dd1818a6b69ea2a0928bb58c454"
+    },
+    {
+      "name": "20d_month_has_vb_[20]_ma_2013_labels_w_delay.feather",
+      "bytes": 3186402,
+      "sha256": "ebecb81303ce16ce90e5816dd06365cefc6e46dbd6aa0b9fcc42bc7f0b1c1141"
+    },
+    {
+      "name": "20d_month_has_vb_[20]_ma_2014_images.dat",
+      "bytes": 258439680,
+      "sha256": "12038c5c52f5812b3bcb44646f4c6f970e84710cb542baf8fa8d9c9981cce299"
+    },
+    {
+      "name": "20d_month_has_vb_[20]_ma_2014_labels_w_delay.feather",
+      "bytes": 3275986,
+      "sha256": "e4638b6b33ecded74dfe8a0e219caec738158150d8399d495639cb42fad85e32"
+    },
+    {
+      "name": "20d_month_has_vb_[20]_ma_2015_images.dat",
+      "bytes": 264295680,
+      "sha256": "90c27f93196a9d0b26a196097fd8cd6c272c7350e96c4ab12ef1bc3529dc97e5"
+    },
+    {
+      "name": "20d_month_has_vb_[20]_ma_2015_labels_w_delay.feather",
+      "bytes": 3350458,
+      "sha256": "f660c4ae991258630c81a6156004dfbbabe6a80a7008686a0d16696987de1b29"
+    },
+    {
+      "name": "20d_month_has_vb_[20]_ma_2016_images.dat",
+      "bytes": 261661440,
+      "sha256": "3fc188486d82284b6a3a4f442d4c875c5db21b4349db4cb1e8b30b5dc01a6d1c"
+    },
+    {
+      "name": "20d_month_has_vb_[20]_ma_2016_labels_w_delay.feather",
+      "bytes": 3316754,
+      "sha256": "308f5de30b845101ba0287d8779b351767c896814867e7cf21d0959c51ef109f"
+    },
+    {
+      "name": "20d_month_has_vb_[20]_ma_2017_images.dat",
+      "bytes": 260574720,
+      "sha256": "c24d189601d1ec06a3174c1020a639b08ab9755f1b4586d92217bfd1f9ea5058"
+    },
+    {
+      "name": "20d_month_has_vb_[20]_ma_2017_labels_w_delay.feather",
+      "bytes": 3302970,
+      "sha256": "78830b0b050ed9b048a79ef80b99805c1c695d438b9da9201ad63942611d6f0e"
+    },
+    {
+      "name": "20d_month_has_vb_[20]_ma_2018_images.dat",
+      "bytes": 262967040,
+      "sha256": "a1290901bddca998708ad70ecd6df463c58d9ae6203b953136e02611a10a0318"
+    },
+    {
+      "name": "20d_month_has_vb_[20]_ma_2018_labels_w_delay.feather",
+      "bytes": 3332954,
+      "sha256": "688bbd35ec8a27a737bf16a256d1f7000bc0f7a76383a9a0cd8d08653b86e074"
+    },
+    {
+      "name": "20d_month_has_vb_[20]_ma_2019_images.dat",
+      "bytes": 263566080,
+      "sha256": "199c281f7d4ea3a53be5fa79ba387653931d8116603ce35d31280e1e899fac2a"
+    },
+    {
+      "name": "20d_month_has_vb_[20]_ma_2019_labels_w_delay.feather",
+      "bytes": 3311850,
+      "sha256": "c3a629559bf217e6d42bea322972fdea9ea3cf334265623065b3f3f72dac57af"
+    }
+  ],
+  "image_shape": [
+    1,
+    64,
+    60
+  ],
+  "data_source": "https://dachxiu.chicagobooth.edu/download/img_data.zip"
+}

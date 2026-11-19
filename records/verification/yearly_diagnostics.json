@@ -1,0 +1,35 @@
+{
+  "year_basis": "formation year",
+  "diagnostics": {
+    "2": {
+      "years_auc_above_05": 20,
+      "years_accuracy_above_always_up": 10,
+      "years_accuracy_above_both_constant_class_rules": 4,
+      "years_ce_below_log2": 15,
+      "best_accuracy_years_descriptive": 12,
+      "best_auc_years_descriptive": 3
+    },
+    "3": {
+      "years_auc_above_05": 20,
+      "years_accuracy_above_always_up": 10,
+      "years_accuracy_above_both_constant_class_rules": 4,
+      "years_ce_below_log2": 14,
+      "best_accuracy_years_descriptive": 0,
+      "best_auc_years_descriptive": 8
+    },
+    "4": {
+      "years_auc_above_05": 20,
+      "years_accuracy_above_always_up": 9,
+      "years_accuracy_above_both_constant_class_rules": 3,
+      "years_ce_below_log2": 9,
+      "best_accuracy_years_descriptive": 8,
+      "best_auc_years_descriptive": 9
+    }
+  },
+  "notes": [
+    "The larger of the two constant-class accuracies is a hindsight class-imbalance diagnostic, not an ex-ante selectable rule.",
+    "Annualized financial mean = 12 times observed monthly mean, not CAGR or natural-calendar-year realized return.",
+    "2019 contains 11 financial formation months.",
+    "No significance or causal tests performed."
+  ]
+}

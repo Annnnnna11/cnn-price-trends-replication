@@ -1,0 +1,20 @@
+{
+  "prepared_on": "2026-11-19",
+  "checks": {
+    "new_launcher_unit_tests": {
+      "passed": 5,
+      "gpu_required": false
+    },
+    "existing_evaluation_synthetic_checks": "PASS",
+    "saved_summary_reconciliation": "PASS; see public_summary_verification.json",
+    "annual_plot_export": "PASS; generated into ignored runs/review/figures",
+    "source_copy_sha256": "PASS",
+    "credential_pattern_scan": "No matches for known token/private-key/URL-credential patterns"
+  },
+  "limits": [
+    "No new full GPU training or inference was performed during preparation.",
+    "This record is not a claim of complete transitive environment equivalence.",
+    "Per-image CE and AUC were not independently rescored on the preparation device."
+  ],
+  "python_for_cpu_checks": "3.12.14"
+}

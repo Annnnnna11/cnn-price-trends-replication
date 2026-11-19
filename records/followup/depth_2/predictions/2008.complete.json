@@ -1,0 +1,23 @@
+{
+  "evaluation_id": "93f1f9696b58c47a3cfe301595826fd834bd9792b711bfa795765265f12804fd",
+  "year": 2008,
+  "rows": 78186,
+  "predicted_rows": 78125,
+  "inference_seconds": 263.9796712999814,
+  "images_per_second_all_five": 295.95081930085536,
+  "peak_cuda_allocated_mib": 147.14892578125,
+  "image_source": {
+    "name": "20d_month_has_vb_[20]_ma_2008_images.dat",
+    "bytes": 300234240,
+    "mtime_ns": 1633553746000000000,
+    "sha256": "8d938aaa2e0c2fa99bdf8b99470c751967997f8ed8952b886e4d9a3aa678f79d"
+  },
+  "label_source": {
+    "name": "20d_month_has_vb_[20]_ma_2008_labels_w_delay.feather",
+    "bytes": 3801466,
+    "mtime_ns": 1635131618000000000,
+    "sha256": "7f96941ff35eddd269b0ea3ff62153fd799fce39eb558652e9a33b6e2291f92e"
+  },
+  "prediction_sha256": "c8099f27476b3c0c517be34f05c6060b34436e5ff129b81c9570156d60e15b81",
+  "completed_at": "2026-11-19T01:46:35.027555"
+}

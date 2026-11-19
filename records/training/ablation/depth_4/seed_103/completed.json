@@ -1,0 +1,35 @@
+{
+  "run_id": "a21b2beff38d175eaf1dee33e541e95fcdedf1ca14ba1eae082009f81357451e",
+  "seed": 103,
+  "depth": 4,
+  "baseline_run_id": "8e2acdd728afe87f6f0bd1d6b1d85c1181d99202efc19d1cff4734f616667293",
+  "epochs_run": 5,
+  "best_epoch": 3,
+  "validation_metrics": {
+    "samples": 204455,
+    "cross_entropy": 0.6919890820978615,
+    "accuracy": 0.530190017363234,
+    "mcc": 0.06362374224766137,
+    "true_up_fraction": 0.4975911569783082,
+    "predicted_up_fraction": 0.30311804553569244,
+    "confusion_matrix": [
+      [
+        74573,
+        28147
+      ],
+      [
+        67908,
+        33827
+      ]
+    ],
+    "seconds": 193.46780749998288
+  },
+  "elapsed_seconds": 4337.611682600022,
+  "peak_cuda_allocated_mib": 968.75048828125,
+  "stop_reason": "early_stopping",
+  "finished_at": "2026-11-18T22:55:06.420441",
+  "checkpoint_hashes": {
+    "best.pt": "f6d0a6828933c8eac1f62d1b31bd033b2d8d2a0ab832d3588d532b708b3f4086",
+    "last.pt": "09f84781c28f7d80694921af170536d5d6fe2fea967c0a80c7a855a20fa6d7b9"
+  }
+}

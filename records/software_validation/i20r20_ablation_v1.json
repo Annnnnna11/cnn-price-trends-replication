@@ -1,0 +1,44 @@
+{
+  "version": "i20r20_ablation_v1",
+  "original_baseline_training_runner_sha256": "00f3103ad1694552fa3b36393e2624f9df83360893d20a4f82b97577d76929e4",
+  "unchanged_training_components_AST": [
+    "Tee",
+    "logger",
+    "run_lock",
+    "Charts",
+    "epoch",
+    "save_checkpoint",
+    "save_history"
+  ],
+  "allowed_training_engine_adaptations": [
+    "Model factory argument instead of fixed CNN20 constructor",
+    "Architecture-specific expected parameter count",
+    "Variant protocol lookup",
+    "Architecture, depth and baseline ancestry metadata"
+  ],
+  "checks_passed": [
+    "Python 3.11 grammar",
+    "Feature geometry and parameter counts for 2/3/4 layers",
+    "Exact catalog/split/normalization copies from real baseline",
+    "Training settings unchanged apart from version/depth metadata",
+    "Idempotent preparation",
+    "Manifest content tampering detected",
+    "Original baseline manifest unchanged",
+    "Predeclared study-plan byte identity"
+  ],
+  "not_executed_locally": [
+    "New model Torch/CUDA forward/backward compatibility check",
+    "Depth-2/depth-4 formal training",
+    "Any new test evaluation or Grad-CAM"
+  ],
+  "files": {
+    "i20r20_ablation_v1/README_zh.md": "99bd99ee5557e9c87883eb71a2d51ae5d96a54e1def7c2fc1cb0ba28ca5adf7d",
+    "i20r20_ablation_v1/cnn20.py": "1e2844f117f2dec51532768959b75ed6b54ded2f8ba627f873c71d0bba21559d",
+    "i20r20_ablation_v1/common.py": "d6b66b7d1c510bdddd236baabf6966f741a692fb850ff31eb376d0cf59845d67",
+    "i20r20_ablation_v1/models.py": "79678af0f081af30612a26b0fd659acc73ee1223ef9f78074ffe6f0f4601e532",
+    "i20r20_ablation_v1/run.py": "d11c2d2e19deccde374d7b1829c14f11e382b22edd8830eccebedff3d19d89d8",
+    "i20r20_ablation_v1/study_plan.json": "bc45a4b67ec55d2312fffbbb28fcf7bd2c03be1f0029a2a1897c6e910270cabd",
+    "i20r20_ablation_v1/tests/check_prepare.py": "a4a7b8e84a9479bf6562ea138ff487df776734f0181b7100cae076e672954e54",
+    "i20r20_ablation_v1/training_engine.py": "58bc3c9843486c97970f7e7ac73c804f243d527e07f790446adc66c5bec8b580"
+  }
+}
